@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>30 illustratori per bambini – riferimenti di stile</title>
+<style>
+:root{--paper:#FBF6EA;--card:#FFFDF7;--ink:#1F1C18;--muted:#5E574C;--line:#E4DCCB;--accent:#B5452B;--blue:#24466B;
+--g:#2E7D32;--gbg:#E5F2E3;--y:#8A5A00;--ybg:#FBEFC8;--r:#A8322A;--rbg:#F8E1DD}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Verdana,Tahoma,"Segoe UI",Arial,sans-serif;font-size:17px;line-height:1.55;letter-spacing:.01em}
+a{color:var(--blue)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+.top{padding:34px 0 18px;border-bottom:3px solid var(--ink)}
+.top h1{font-size:clamp(26px,5vw,40px);line-height:1.15;margin:0 0 10px;font-weight:700;letter-spacing:-.01em}
+.top p{margin:6px 0;max-width:62ch;color:var(--muted)}
+.notice{display:inline-block;margin-top:10px;padding:6px 12px;border:2px solid var(--accent);color:var(--accent);font-weight:700;font-size:14px;border-radius:3px}
+.bar{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line);padding:10px 0}
+.bar .wrap{display:flex;flex-direction:column;gap:8px}
+.bar .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.f{font:inherit;font-size:15px;border:1.5px solid var(--ink);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer}
+.f[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.f.bes-only[aria-pressed=true]{background:var(--g);border-color:var(--g)}
+.sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+.count{margin-left:auto;font-size:14px;color:var(--muted)}
+.toc{margin:22px 0 6px;font-size:14px;columns:3 220px;column-gap:24px}
+.toc a{display:block;padding:2px 0;text-decoration:none;color:var(--ink)}
+.d{display:inline-block;width:10px;height:10px;border-radius:50%;margin-left:4px;vertical-align:0}.d-g{background:var(--g)}.d-y{background:#D9A21B}.d-r{background:var(--r)}
+.toc a.hide{opacity:.3}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:22px 22px 18px;margin:22px 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+.card[hidden]{display:none}
+.card,.guide{scroll-margin-top:120px}
+.card-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:12px}
+.num{margin:0;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.card h2{margin:2px 0 2px;font-size:26px;line-height:1.2}
+.meta{margin:0;color:var(--muted);font-size:15px}
+.bes{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;padding:5px 11px;border-radius:999px;white-space:nowrap}
+.bes .dot{width:11px;height:11px;border-radius:50%;background:currentColor}
+.bes-verde{color:var(--g);background:var(--gbg)}.bes-giallo{color:var(--y);background:var(--ybg)}.bes-rosso{color:var(--r);background:var(--rbg)}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px 28px}
+.col p{margin:4px 0 10px}
+h3{font-size:15px;margin:12px 0 4px;text-transform:uppercase;letter-spacing:.05em}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:1px 7px;border-radius:3px;vertical-align:2px;margin-left:4px}
+.fact{background:#E3ECF5;color:var(--blue)}.eval{background:#F1E6D6;color:#7A4E1D}.unv{background:#EEE;color:#666}
+.awards{margin:4px 0 10px;padding-left:18px}.awards li{margin:3px 0}
+.src{font-size:13px;white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:14px;border:1px solid var(--muted);padding:1px 10px;border-radius:999px}
+.kw{margin:14px 0 6px;background:#F4EEDF;border-left:4px solid var(--accent);padding:10px 14px;border-radius:3px}
+.kw-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.kw-head h3{margin:0}
+.kw-text{overflow-wrap:anywhere;margin:6px 0 2px;font-family:Consolas,"Courier New",monospace;font-size:15px;line-height:1.5}
+.copy{font:inherit;font-size:15px;font-weight:700;background:var(--ink);color:var(--paper);border:0;border-radius:4px;padding:8px 16px;cursor:pointer;min-width:92px}
+.copy.ok{background:var(--g)}
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}
+figure{margin:0}
+.zoom{display:block;width:100%;padding:0;border:0;background:#EDE6D6;cursor:zoom-in;border-radius:3px;overflow:hidden;aspect-ratio:4/3}
+.zoom img{width:100%;height:100%;object-fit:contain;display:block}
+.missing{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:#EEE;color:#888;font-size:13px;text-align:center;border-radius:3px}
+figcaption{overflow-wrap:anywhere;font-size:13px;line-height:1.4;margin-top:6px;color:var(--muted)}
+figcaption b{color:var(--ink);font-weight:600}
+.guide{margin:44px 0;padding-top:20px;border-top:3px solid var(--ink)}
+.guide h2{font-size:28px;margin:0 0 10px}
+.guide li{margin:6px 0}
+.lead{color:var(--muted);max-width:66ch}
+.steps{padding-left:22px}
+.small{font-size:14px;color:var(--muted)}
+.box{background:var(--card);border:1px solid var(--line);padding:12px 16px;border-radius:6px;margin-top:14px}
+.legend .bes{margin:4px 4px 4px 0}
+.rights{background:var(--rbg);padding:12px 14px;border-radius:4px}
+mark{background:#FFE79A}
+footer{padding:20px 0 50px;color:var(--muted);font-size:14px}
+.lb{position:fixed;inset:0;background:#141210;z-index:100;display:none;flex-direction:column;align-items:center;justify-content:center;padding:54px 10px 14px}
+.lb.open{display:flex}
+.lb img{max-width:100%;max-height:calc(100vh - 150px);object-fit:contain;background:#fff}
+.lb p{color:#eee;font-size:14px;max-width:900px;text-align:center;margin:10px 8px 0}
+.lb p a{color:#cfe1ff}
+.lb button{position:absolute;background:rgba(255,255,255,.12);color:#fff;border:0;font-size:28px;width:52px;height:52px;border-radius:50%;cursor:pointer}
+.lb .x{top:10px;right:10px}.lb .pv{left:8px;top:50%}.lb .nx{right:8px;top:50%}
+@media (max-width:760px){
+ body{font-size:16px}
+ .cols{grid-template-columns:minmax(0,1fr)}
+ .gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .src{white-space:normal}
+ .card{padding:16px 14px}
+ .card h2{font-size:22px}
+ .card-head{flex-direction:column}
+ .bar{position:static}
+ .kw-text{font-size:14px}
+ .bar .row{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+ .f{white-space:nowrap;font-size:14px;padding:6px 11px}
+ .count{margin-left:8px;white-space:nowrap}
+ .toc{columns:2;font-size:13px}
+ .lb .pv,.lb .nx{top:auto;bottom:12px}
+}
+@media print{.bar,.lb{display:none!important}.card{break-inside:avoid}}
+</style></head>
+<body>
+<header class="top"><div class="wrap">
+<h1>30 illustratori per bambini<br>come riferimenti di stile</h1>
+<p>20 contemporanei premiati e 10 maestri del Novecento (6 italiani). Per ognuno: premi con fonte, tecnica, materie, bollino BES, una riga di parole chiave da incollare in Gemini e 4 tavole da usare come riferimento.</p>
+<p>Come si usa: in fondo trovi la <a href="#come-usare">guida per Gemini e NotebookLM</a> e le <a href="#regole-bes">regole di leggibilità BES</a>.</p>
+<span class="notice">Uso privato e didattico · non pubblicare online</span>
+</div></header>
+<nav class="bar" aria-label="Filtri"><div class="wrap">
+<div class="row"><button class="f" data-subj-f="tutte" aria-pressed="true">Tutte le materie</button><button class="f" data-subj-f="italiano" aria-pressed="false">Italiano</button><button class="f" data-subj-f="spagnolo" aria-pressed="false">Spagnolo</button><button class="f" data-subj-f="inglese" aria-pressed="false">Inglese</button><button class="f" data-subj-f="musica" aria-pressed="false">Musica</button><button class="f" data-subj-f="storia" aria-pressed="false">Storia</button><button class="f" data-subj-f="matematica" aria-pressed="false">Matematica</button><button class="f" data-subj-f="scienze" aria-pressed="false">Scienze</button></div>
+<div class="row"><button class="f" data-group-f="tutti" aria-pressed="true">Tutti</button><button class="f" data-group-f="c" aria-pressed="false">Contemporanei</button><button class="f" data-group-f="m" aria-pressed="false">Maestri</button><span class="sep"></span>
+<button class="f bes-only" aria-pressed="false">● Solo adatti BES</button>
+<span class="count" id="count">30 illustratori</span></div>
+</div></nav>
+<main class="wrap">
+<nav class="toc" aria-label="Indice"><a href="#klassen">01 Jon Klassen <i class="d d-g"></i></a><a href="#smith">02 Sydney Smith <i class="d d-y"></i></a><a href="#lee">03 Suzy Lee <i class="d d-g"></i></a><a href="#yoon">04 JooHee Yoon <i class="d d-y"></i></a><a href="#blexbolex">05 Blexbolex (Bernard Granger) <i class="d d-g"></i></a><a href="#grill">06 William Grill <i class="d d-y"></i></a><a href="#robinson">07 Christian Robinson <i class="d d-g"></i></a><a href="#steptoe">08 Javaka Steptoe <i class="d d-r"></i></a><a href="#stead">09 Erin E. Stead <i class="d d-g"></i></a><a href="#boyd">10 Lizi Boyd <i class="d d-g"></i></a><a href="#seeger">11 Laura Vaccaro Seeger <i class="d d-g"></i></a><a href="#tonatiuh">12 Duncan Tonatiuh <i class="d d-g"></i></a><a href="#chmielewska">13 Iwona Chmielewska <i class="d d-r"></i></a><a href="#crowther">14 Kitty Crowther <i class="d d-y"></i></a><a href="#isol">15 Isol (Marisol Misenta) <i class="d d-g"></i></a><a href="#watanabe">16 Issa Watanabe <i class="d d-y"></i></a><a href="#albertine">17 Albertine (Albertine Zullo) <i class="d d-y"></i></a><a href="#alemagna">18 Beatrice Alemagna <i class="d d-y"></i></a><a href="#sanna">19 Alessandro Sanna <i class="d d-y"></i></a><a href="#labate">20 Isabella Labate <i class="d d-y"></i></a><a href="#munari">21 Bruno Munari <i class="d d-g"></i></a><a href="#lionni">22 Leo Lionni <i class="d d-g"></i></a><a href="#luzzati">23 Emanuele Luzzati <i class="d d-y"></i></a><a href="#carle">24 Eric Carle <i class="d d-g"></i></a><a href="#provensen">25 Alice e Martin Provensen <i class="d d-y"></i></a><a href="#ungerer">26 Tomi Ungerer <i class="d d-g"></i></a><a href="#keats">27 Ezra Jack Keats <i class="d d-g"></i></a><a href="#frasconi">28 Antonio Frasconi <i class="d d-y"></i></a><a href="#pacovska">29 Květa Pacovská <i class="d d-r"></i></a><a href="#mari">30 Iela Mari <i class="d d-g"></i></a></nav>
+<p class="small"><i class="d d-g"></i> adatto · <i class="d d-y"></i> da semplificare · <i class="d d-r"></i> solo copertina. Tocca un'immagine per ingrandirla.</p>
+
+<article class="card" id="klassen" data-subj="italiano inglese scienze" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">01 · Contemporaneo</p>
+      <h2>Jon Klassen</h2>
+      <p class="meta">Canada · libri illustrati dal 2011 (I Want My Hat Back)</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Medal 2013 – This Is Not My Hat <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li><li>Caldecott Honor 2013 (Extra Yarn) e 2015 (Sam &amp; Dave Dig a Hole) <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li><li>Kate Greenaway Medal 2014 – This Is Not My Hat <a class="src" href="https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/67213-2015-carnegie-greenaway-medals-announced-in-u-k.html" target="_blank" rel="noopener">fonte: publishersweekly.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Inchiostro di china su carta, forme ritagliate e scansionate, colore e montaggio in digitale. <span class="tag fact">fatto · dichiarazione dell&#x27;artista (intervista a E. Dulemba, 2012)</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Racconta l&#x27;umorismo con gli occhi: pupille che si spostano, personaggi immobili, testo che contraddice l&#x27;immagine. Palette terrosa e quasi niente sullo sfondo.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span><span class="chip">scienze</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Una o due figure, sagome nette, fondo uniforme.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="muted earthy picture-book illustration, ink and digital texture with subtle grain, palette of charcoal black, olive green, warm ochre, dusty brown on off-white paper, flat silhouetted shapes with soft speckled texture, characters with simple round bodies and tiny dot eyes looking sideways, deadpan expressions without mouths, static frontal composition with one figure centered, horizon line low, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">muted earthy picture-book illustration, ink and digital texture with subtle grain, palette of charcoal black, olive green, warm ochre, dusty brown on off-white paper, flat silhouetted shapes with soft speckled texture, characters with simple round bodies and tiny dot eyes looking sideways, deadpan expressions without mouths, static frontal composition with one figure centered, horizon line low, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Jon Klassen: Beach House"><img loading="lazy" src="contemporanei/klassen-1.jpg" alt="Jon Klassen: Beach House"></button><figcaption><b>Beach House</b><br>Jon Klassen · <a href="https://blog.picturebookmakers.com/post/jon-klassen" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Jon Klassen: I Want My Hat Back (2011), doppia pagina"><img loading="lazy" src="contemporanei/klassen-2.jpg" alt="Jon Klassen: I Want My Hat Back (2011), doppia pagina"></button><figcaption><b>I Want My Hat Back (2011), doppia pagina</b><br>Jon Klassen · <a href="https://blog.picturebookmakers.com/post/jon-klassen" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Jon Klassen: This Is Not My Hat (2012), doppia pagina"><img loading="lazy" src="contemporanei/klassen-3.jpg" alt="Jon Klassen: This Is Not My Hat (2012), doppia pagina"></button><figcaption><b>This Is Not My Hat (2012), doppia pagina</b><br>Jon Klassen · <a href="https://blog.picturebookmakers.com/post/jon-klassen" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Jon Klassen: We Found a Hat (2016), doppia pagina"><img loading="lazy" src="contemporanei/klassen-4.jpg" alt="Jon Klassen: We Found a Hat (2016), doppia pagina"></button><figcaption><b>We Found a Hat (2016), doppia pagina</b><br>Jon Klassen · <a href="https://blog.picturebookmakers.com/post/jon-klassen" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="smith" data-subj="italiano storia inglese" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">02 · Contemporaneo</p>
+      <h2>Sydney Smith</h2>
+      <p class="meta">Canada · attivo dal 2010 circa</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Hans Christian Andersen Award (illustrazione) 2024 <a class="src" href="https://www.ibby.org/awards-activities/awards/hans-christian-andersen-award/hans-christian-andersen-awards-2024" target="_blank" rel="noopener">fonte: ibby.org</a></li><li>Kate Greenaway Medal 2018 – Town Is by the Sea <a class="src" href="https://carnegies.co.uk/geraldine-mccaughrean-scoops-second-cilip-carnegie-medal-30-years-after-first-win-and-champions-triumph-of-literary-fiction/" target="_blank" rel="noopener">fonte: carnegies.co.uk</a></li><li>NYT Best Illustrated 2015 – Sidewalk Flowers <a class="src" href="https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/68507-n-y-times-announces-2015-best-illustrated-children-s-books.html" target="_blank" rel="noopener">fonte: publishersweekly.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Inchiostro e acquerello, pennellate larghe. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Luce quasi cinematografica; alterna vignette piccole a grandi tavole silenziose. Il colore entra a macchie dentro un mondo grigio.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">storia</span><span class="chip">inglese</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Atmosfere scure e sfumate: figura e sfondo meno netti. Scegliere le tavole più chiare.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="loose ink and watercolor illustration on cold-press paper, palette of slate grey, deep navy, sea blue, single accents of warm yellow and red on off-white, wet brushstrokes with visible blooms and dry edges, small solitary child figure with simplified face and no detailed features, wide cinematic framing with sea and sky, quiet atmospheric light, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">loose ink and watercolor illustration on cold-press paper, palette of slate grey, deep navy, sea blue, single accents of warm yellow and red on off-white, wet brushstrokes with visible blooms and dry edges, small solitary child figure with simplified face and no detailed features, wide cinematic framing with sea and sky, quiet atmospheric light, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Sydney Smith: Do You Remember? (2023)"><img loading="lazy" src="contemporanei/smith-1.jpg" alt="Sydney Smith: Do You Remember? (2023)"></button><figcaption><b>Do You Remember? (2023)</b><br>Sydney Smith · <a href="https://blog.picturebookmakers.com/post/sydney-smith" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Sydney Smith: Do You Remember? (2023)"><img loading="lazy" src="contemporanei/smith-2.jpg" alt="Sydney Smith: Do You Remember? (2023)"></button><figcaption><b>Do You Remember? (2023)</b><br>Sydney Smith · <a href="https://blog.picturebookmakers.com/post/sydney-smith" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Sydney Smith: Do You Remember? (2023)"><img loading="lazy" src="contemporanei/smith-3.jpg" alt="Sydney Smith: Do You Remember? (2023)"></button><figcaption><b>Do You Remember? (2023)</b><br>Sydney Smith · <a href="https://blog.picturebookmakers.com/post/sydney-smith" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Sydney Smith: Do You Remember? (2023)"><img loading="lazy" src="contemporanei/smith-4.jpg" alt="Sydney Smith: Do You Remember? (2023)"></button><figcaption><b>Do You Remember? (2023)</b><br>Sydney Smith · <a href="https://blog.picturebookmakers.com/post/sydney-smith" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="lee" data-subj="italiano inglese scienze musica" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">03 · Contemporaneo</p>
+      <h2>Suzy Lee</h2>
+      <p class="meta">Corea del Sud · attiva dal 2002 circa (Alice in Wonderland, Mirror)</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Hans Christian Andersen Award (illustrazione) 2022 <a class="src" href="https://www.ibby.org/subnavigation/archives/hans-christian-andersen-awards/2022" target="_blank" rel="noopener">fonte: ibby.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Carboncino e un solo colore d&#x27;accento; libri senza parole. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Usa la piega centrale del libro come confine del racconto (onda/spiaggia, specchio, ombra). Gesto rapido, un colore solo, nessuna parola.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span><span class="chip">scienze</span><span class="chip">musica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Una bambina, fondo bianco, un colore.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="expressive charcoal drawing on white paper with a single accent color of cobalt blue, smudged grey tones, quick gestural lines, one small girl with simple round head and dot eyes, playful pose, bold diagonal movement across the page, large areas of untouched white paper, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">expressive charcoal drawing on white paper with a single accent color of cobalt blue, smudged grey tones, quick gestural lines, one small girl with simple round head and dot eyes, playful pose, bold diagonal movement across the page, large areas of untouched white paper, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Suzy Lee: Mirror (Corraini, 2003), doppia pagina"><img loading="lazy" src="contemporanei/lee-1.jpg" alt="Suzy Lee: Mirror (Corraini, 2003), doppia pagina"></button><figcaption><b>Mirror (Corraini, 2003), doppia pagina</b><br>Suzy Lee · <a href="https://blog.picturebookmakers.com/post/suzy-lee" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Suzy Lee: Wave (2008), doppia pagina"><img loading="lazy" src="contemporanei/lee-2.jpg" alt="Suzy Lee: Wave (2008), doppia pagina"></button><figcaption><b>Wave (2008), doppia pagina</b><br>Suzy Lee · <a href="https://blog.picturebookmakers.com/post/suzy-lee" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Suzy Lee: Shadow (2010), doppia pagina"><img loading="lazy" src="contemporanei/lee-3.jpg" alt="Suzy Lee: Shadow (2010), doppia pagina"></button><figcaption><b>Shadow (2010), doppia pagina</b><br>Suzy Lee · <a href="https://blog.picturebookmakers.com/post/suzy-lee" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Suzy Lee: Shadow (2010), doppia pagina"><img loading="lazy" src="contemporanei/lee-4.jpg" alt="Suzy Lee: Shadow (2010), doppia pagina"></button><figcaption><b>Shadow (2010), doppia pagina</b><br>Suzy Lee · <a href="https://blog.picturebookmakers.com/post/suzy-lee" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="yoon" data-subj="inglese italiano storia" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">04 · Contemporaneo</p>
+      <h2>JooHee Yoon</h2>
+      <p class="meta">USA / Corea · primo libro illustrato nel 2015</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>NYT Best Illustrated 2015 – The Tiger Who Would Be King <a class="src" href="https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/68507-n-y-times-announces-2015-best-illustrated-children-s-books.html" target="_blank" rel="noopener">fonte: publishersweekly.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Stampa a strati in stile xilografia/risografia, due inchiostri in sovrastampa. <span class="tag fact">fatto · New York Times (citato da A Child Grows) ed Enchanted Lion</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>I due colori sovrapposti ne creano un terzo; i proverbi sono presi alla lettera. Forme a blocchi con la grana della stampa.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">inglese</span><span class="chip">italiano</span><span class="chip">storia</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Le sovrastampe possono confondere: chiedere al massimo 2 inchiostri.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="layered woodblock and risograph-style print, three overprinting spot inks such as sunflower yellow, fluorescent pink and teal blue creating darker colors where they overlap, off-white paper, chunky blocky shapes with visible wood grain and slight misregistration, oversized bold animal or character with simple geometric face, flat graphic composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">layered woodblock and risograph-style print, three overprinting spot inks such as sunflower yellow, fluorescent pink and teal blue creating darker colors where they overlap, off-white paper, chunky blocky shapes with visible wood grain and slight misregistration, oversized bold animal or character with simple geometric face, flat graphic composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: JooHee Yoon: Beastly Verse (2015)"><img loading="lazy" src="contemporanei/yoon-1.jpg" alt="JooHee Yoon: Beastly Verse (2015)"></button><figcaption><b>Beastly Verse (2015)</b><br>JooHee Yoon · <a href="https://blog.picturebookmakers.com/post/joohee-yoon" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: JooHee Yoon: Beastly Verse (2015)"><img loading="lazy" src="contemporanei/yoon-2.jpg" alt="JooHee Yoon: Beastly Verse (2015)"></button><figcaption><b>Beastly Verse (2015)</b><br>JooHee Yoon · <a href="https://blog.picturebookmakers.com/post/joohee-yoon" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: JooHee Yoon: Beastly Verse (2015)"><img loading="lazy" src="contemporanei/yoon-3.jpg" alt="JooHee Yoon: Beastly Verse (2015)"></button><figcaption><b>Beastly Verse (2015)</b><br>JooHee Yoon · <a href="https://blog.picturebookmakers.com/post/joohee-yoon" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: JooHee Yoon: Beastly Verse (2015)"><img loading="lazy" src="contemporanei/yoon-4.jpg" alt="JooHee Yoon: Beastly Verse (2015)"></button><figcaption><b>Beastly Verse (2015)</b><br>JooHee Yoon · <a href="https://blog.picturebookmakers.com/post/joohee-yoon" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="blexbolex" data-subj="italiano inglese spagnolo storia" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">05 · Contemporaneo</p>
+      <h2>Blexbolex (Bernard Granger)</h2>
+      <p class="meta">Francia · libri dal 1992 (nato nel 1966)</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>«Plus beau livre du monde», Fiera di Lipsia 2009 – L&#x27;Imagier des gens <a class="src" href="https://www.albin-michel.fr/blexbolex" target="_blank" rel="noopener">fonte: albin-michel.fr</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Serigrafia: campiture piatte simili allo stencil. <span class="tag fact">fatto · Galerie Robillard</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Rinnova l&#x27;«imagier» (dizionario per immagini): una figura per pagina, colori sovrapposti, grana di stampa vera.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span><span class="chip">spagnolo</span><span class="chip">storia</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Un solo soggetto, sagoma netta, fondo pieno uniforme.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="screen-printed illustration with flat stencil-like shapes, three or four spot inks of brick red, mustard yellow, slate blue and black on cream paper, overlapping translucent layers with halftone grain and slight misregistration, single figure shown as faceless silhouette with simple geometric body, centered iconic composition like a vintage picture dictionary, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">screen-printed illustration with flat stencil-like shapes, three or four spot inks of brick red, mustard yellow, slate blue and black on cream paper, overlapping translucent layers with halftone grain and slight misregistration, single figure shown as faceless silhouette with simple geometric body, centered iconic composition like a vintage picture dictionary, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Blexbolex (Bernard Granger): Romance (2011; ed. inglese Ballad), doppia pagina"><img loading="lazy" src="contemporanei/blexbolex-1.jpg" alt="Blexbolex (Bernard Granger): Romance (2011; ed. inglese Ballad), doppia pagina"></button><figcaption><b>Romance (2011; ed. inglese Ballad), doppia pagina</b><br>Blexbolex (Bernard Granger) · <a href="https://blog.picturebookmakers.com/post/blexbolex" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Blexbolex (Bernard Granger): Ballad / Romance, paesaggi"><img loading="lazy" src="contemporanei/blexbolex-2.jpg" alt="Blexbolex (Bernard Granger): Ballad / Romance, paesaggi"></button><figcaption><b>Ballad / Romance, paesaggi</b><br>Blexbolex (Bernard Granger) · <a href="https://blog.picturebookmakers.com/post/blexbolex" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Blexbolex (Bernard Granger): Ballad / Romance, personaggi"><img loading="lazy" src="contemporanei/blexbolex-3.jpg" alt="Blexbolex (Bernard Granger): Ballad / Romance, personaggi"></button><figcaption><b>Ballad / Romance, personaggi</b><br>Blexbolex (Bernard Granger) · <a href="https://blog.picturebookmakers.com/post/blexbolex" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Blexbolex (Bernard Granger): Ballad / Romance, doppia pagina"><img loading="lazy" src="contemporanei/blexbolex-4.jpg" alt="Blexbolex (Bernard Granger): Ballad / Romance, doppia pagina"></button><figcaption><b>Ballad / Romance, doppia pagina</b><br>Blexbolex (Bernard Granger) · <a href="https://blog.picturebookmakers.com/post/blexbolex" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="grill" data-subj="storia scienze matematica inglese" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">06 · Contemporaneo</p>
+      <h2>William Grill</h2>
+      <p class="meta">Regno Unito · primo libro nel 2014 (Shackleton&#x27;s Journey)</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Kate Greenaway Medal 2015 – Shackleton&#x27;s Journey (il più giovane vincitore dal 1960) <a class="src" href="https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/67213-2015-carnegie-greenaway-medals-announced-in-u-k.html" target="_blank" rel="noopener">fonte: publishersweekly.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Matite colorate su carta bianca. <span class="tag fact">fatto · Publishers Weekly; MIT Press Bookstore</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Divulgazione storica con figurine minuscole, inventari visivi e grandi vuoti bianchi. A metà tra infografica e albo illustrato.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">storia</span><span class="chip">scienze</span><span class="chip">matematica</span><span class="chip">inglese</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Le tavole «inventario» sono perfette; i panorami con decine di omini vanno semplificati.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="colored pencil illustration on white paper, visible pencil hatching and grain, limited palette of ice blue, slate grey, rust orange and dark navy, tiny simplified human figures without facial features, wide horizontal polar landscape, rows of small objects arranged like a visual inventory, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">colored pencil illustration on white paper, visible pencil hatching and grain, limited palette of ice blue, slate grey, rust orange and dark navy, tiny simplified human figures without facial features, wide horizontal polar landscape, rows of small objects arranged like a visual inventory, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: William Grill: Shackleton&#x27;s Journey (2014): i cani da slitta"><img loading="lazy" src="contemporanei/grill-1.jpg" alt="William Grill: Shackleton&#x27;s Journey (2014): i cani da slitta"></button><figcaption><b>Shackleton&#x27;s Journey (2014): i cani da slitta</b><br>William Grill · <a href="https://www.themarginalian.org/2014/02/26/shackletons-journey-william-grill-nobrow/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: William Grill: Shackleton&#x27;s Journey (2014)"><img loading="lazy" src="contemporanei/grill-2.jpg" alt="William Grill: Shackleton&#x27;s Journey (2014)"></button><figcaption><b>Shackleton&#x27;s Journey (2014)</b><br>William Grill · <a href="https://www.themarginalian.org/2014/02/26/shackletons-journey-william-grill-nobrow/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: William Grill: Shackleton&#x27;s Journey (2014)"><img loading="lazy" src="contemporanei/grill-3.jpg" alt="William Grill: Shackleton&#x27;s Journey (2014)"></button><figcaption><b>Shackleton&#x27;s Journey (2014)</b><br>William Grill · <a href="https://www.themarginalian.org/2014/02/26/shackletons-journey-william-grill-nobrow/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: William Grill: Shackleton&#x27;s Journey (2014): nel pack"><img loading="lazy" src="contemporanei/grill-4.jpg" alt="William Grill: Shackleton&#x27;s Journey (2014): nel pack"></button><figcaption><b>Shackleton&#x27;s Journey (2014): nel pack</b><br>William Grill · <a href="https://www.themarginalian.org/2014/02/26/shackletons-journey-william-grill-nobrow/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="robinson" data-subj="inglese italiano musica" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">07 · Contemporaneo</p>
+      <h2>Christian Robinson</h2>
+      <p class="meta">USA · attivo dal 2013 circa</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Honor 2016 – Last Stop on Market Street <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li><li>NYT Best Illustrated 2015 – Leo: A Ghost Story <a class="src" href="https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/68507-n-y-times-announces-2015-best-illustrated-children-s-books.html" target="_blank" rel="noopener">fonte: publishersweekly.com</a></li><li>Candidato USA all&#x27;Hans Christian Andersen Award 2024 <a class="src" href="https://www.ibby.org/awards-activities/awards/hans-christian-andersen-award/hans-christian-andersen-awards-2024" target="_blank" rel="noopener">fonte: ibby.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Collage di carta ritagliata e acrilico (taglierino, nastro, colla, acrilico). <span class="tag fact">fatto · Eric Carle Museum, mostra «What Might You Do?» (2023)</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Forme ritagliate allegre, personaggi diversi tra loro senza stereotipi, facce minime ma vive.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">inglese</span><span class="chip">italiano</span><span class="chip">musica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Forme piatte e contorni netti.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="cut-paper and acrylic collage illustration, flat painted shapes with visible brush texture and torn edges, palette of tomato red, teal, sunflower yellow, black and kraft brown on light background, round-headed children with dot eyes and simple curved smile, diverse skin tones as flat color, clean side-view composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">cut-paper and acrylic collage illustration, flat painted shapes with visible brush texture and torn edges, palette of tomato red, teal, sunflower yellow, black and kraft brown on light background, round-headed children with dot eyes and simple curved smile, diverse skin tones as flat color, clean side-view composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Christian Robinson: Last Stop on Market Street (2015)"><img loading="lazy" src="contemporanei/robinson-1.jpg" alt="Christian Robinson: Last Stop on Market Street (2015)"></button><figcaption><b>Last Stop on Market Street (2015)</b><br>Christian Robinson · <a href="https://www.theartoffun.com/last-stop-on-market-street" target="_blank" rel="noopener">fonte: theartoffun.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Christian Robinson: Leo: A Ghost Story (2015)"><img loading="lazy" src="contemporanei/robinson-2.jpg" alt="Christian Robinson: Leo: A Ghost Story (2015)"></button><figcaption><b>Leo: A Ghost Story (2015)</b><br>Christian Robinson · <a href="https://www.theartoffun.com/leo-a-ghost-story" target="_blank" rel="noopener">fonte: theartoffun.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Christian Robinson: You Matter (2020)"><img loading="lazy" src="contemporanei/robinson-3.jpg" alt="Christian Robinson: You Matter (2020)"></button><figcaption><b>You Matter (2020)</b><br>Christian Robinson · <a href="https://www.theartoffun.com/you-matter" target="_blank" rel="noopener">fonte: theartoffun.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Christian Robinson: The Dead Bird (2016)"><img loading="lazy" src="contemporanei/robinson-4.jpg" alt="Christian Robinson: The Dead Bird (2016)"></button><figcaption><b>The Dead Bird (2016)</b><br>Christian Robinson · <a href="https://www.theartoffun.com/the-dead-bird-1" target="_blank" rel="noopener">fonte: theartoffun.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="steptoe" data-subj="storia inglese musica" data-bes="r" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">08 · Contemporaneo</p>
+      <h2>Javaka Steptoe</h2>
+      <p class="meta">USA · attivo dal 1997</p>
+    </div>
+    <span class="bes bes-rosso" title="Bollino BES"><span class="dot"></span>Solo copertina</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Medal 2017 – Radiant Child <a class="src" href="https://www.ala.org/awards/books-media/randolph-caldecott-medal-1" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Collage dipinto su legno di recupero, con fotografie. <span class="tag fact">fatto · ALA, scheda del Caldecott</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Il supporto stesso (legno di recupero) diventa racconto. È la tecnica più materica del gruppo.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">storia</span><span class="chip">inglese</span><span class="chip">musica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Bello per una copertina, troppo stratificato per una scheda.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="mixed-media collage painted on scavenged wood panels, visible wood grain and seams, acrylic in cadmium red, cobalt blue, yellow ochre and black, cut photographs and paper scraps, expressive child figure with simplified bold face, patchwork composition of irregular panels, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">mixed-media collage painted on scavenged wood panels, visible wood grain and seams, acrylic in cadmium red, cobalt blue, yellow ochre and black, cut photographs and paper scraps, expressive child figure with simplified bold face, patchwork composition of irregular panels, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Javaka Steptoe: Radiant Child (2016), doppia pagina"><img loading="lazy" src="contemporanei/steptoe-1.jpg" alt="Javaka Steptoe: Radiant Child (2016), doppia pagina"></button><figcaption><b>Radiant Child (2016), doppia pagina</b><br>Javaka Steptoe · <a href="https://www.bklynlibrary.org/exhibitions/radiant-child-javaka" target="_blank" rel="noopener">fonte: bklynlibrary.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Javaka Steptoe: Radiant Child (2016), doppia pagina"><img loading="lazy" src="contemporanei/steptoe-2.jpg" alt="Javaka Steptoe: Radiant Child (2016), doppia pagina"></button><figcaption><b>Radiant Child (2016), doppia pagina</b><br>Javaka Steptoe · <a href="https://gallery98.org/2022/javaka-steptoe-radiant-child-the-story-of-young-artist-jean-michel-basquiat-39-page-book-2016/" target="_blank" rel="noopener">fonte: gallery98.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Javaka Steptoe: Radiant Child (2016), doppia pagina"><img loading="lazy" src="contemporanei/steptoe-3.jpg" alt="Javaka Steptoe: Radiant Child (2016), doppia pagina"></button><figcaption><b>Radiant Child (2016), doppia pagina</b><br>Javaka Steptoe · <a href="https://aalbc.com/books/radiant-child-9780316213882" target="_blank" rel="noopener">fonte: aalbc.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Javaka Steptoe: Radiant Child (2016), tavola interna"><img loading="lazy" src="contemporanei/steptoe-4.jpg" alt="Javaka Steptoe: Radiant Child (2016), tavola interna"></button><figcaption><b>Radiant Child (2016), tavola interna</b><br>Javaka Steptoe · <a href="https://muddypuddlemusings.blogspot.com/2019/01/picture-book-radiant-child-story-of.html" target="_blank" rel="noopener">fonte: muddypuddlemusings.blogspot.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="stead" data-subj="italiano inglese scienze" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">09 · Contemporaneo</p>
+      <h2>Erin E. Stead</h2>
+      <p class="meta">USA · attiva dal 2010</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Medal 2011 – A Sick Day for Amos McGee <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Stampa xilografica e matita disegnata sopra le stampe. <span class="tag fact">fatto · dichiarazione dell&#x27;artista (NPR, 2021; Publishers Weekly, 2010)</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Segno fragile, colori stampati e tenui, tantissima carta bianca: l&#x27;opposto della saturazione tipica dell&#x27;AI.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span><span class="chip">scienze</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Pochi elementi e fondo bianco.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="delicate woodblock printing combined with fine graphite pencil lines, soft printed textures in pale sage green, faded red, dusty pink and warm grey on cream paper, gentle elderly man and animals with tiny simple faces, quiet small-scale scene, objects floating on white ground, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">delicate woodblock printing combined with fine graphite pencil lines, soft printed textures in pale sage green, faded red, dusty pink and warm grey on cream paper, gentle elderly man and animals with tiny simple faces, quiet small-scale scene, objects floating on white ground, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Erin E. Stead: Lenny &amp; Lucy (2015)"><img loading="lazy" src="contemporanei/stead-1.jpg" alt="Erin E. Stead: Lenny &amp; Lucy (2015)"></button><figcaption><b>Lenny &amp; Lucy (2015)</b><br>Erin E. Stead · <a href="https://www.themarginalian.org/2016/04/18/lenny-lucy-stead/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Erin E. Stead: Lenny &amp; Lucy (2015)"><img loading="lazy" src="contemporanei/stead-2.jpg" alt="Erin E. Stead: Lenny &amp; Lucy (2015)"></button><figcaption><b>Lenny &amp; Lucy (2015)</b><br>Erin E. Stead · <a href="https://www.themarginalian.org/2016/04/18/lenny-lucy-stead/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Erin E. Stead: Lenny &amp; Lucy (2015)"><img loading="lazy" src="contemporanei/stead-3.jpg" alt="Erin E. Stead: Lenny &amp; Lucy (2015)"></button><figcaption><b>Lenny &amp; Lucy (2015)</b><br>Erin E. Stead · <a href="https://www.themarginalian.org/2016/04/18/lenny-lucy-stead/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Erin E. Stead: Lenny &amp; Lucy (2015)"><img loading="lazy" src="contemporanei/stead-4.jpg" alt="Erin E. Stead: Lenny &amp; Lucy (2015)"></button><figcaption><b>Lenny &amp; Lucy (2015)</b><br>Erin E. Stead · <a href="https://www.themarginalian.org/2016/04/18/lenny-lucy-stead/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="boyd" data-subj="matematica inglese spagnolo scienze" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">10 · Contemporaneo</p>
+      <h2>Lizi Boyd</h2>
+      <p class="meta">USA · Big Bear Little Chair, 2015</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>NYT Best Illustrated 2015 – Big Bear Little Chair <a class="src" href="https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/68507-n-y-times-announces-2015-best-illustrated-children-s-books.html" target="_blank" rel="noopener">fonte: publishersweekly.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Big Bear Little Chair: carta ritagliata in nero, bianco, grigio e rosso. Le immagini qui sotto sono da Flashlight e Inside Outside (gouache su carta scura o kraft, con finestre fustellate: tecnica non verificata). <span class="tag fact">fatto · New York Times (citato da A Child Grows), per Big Bear Little Chair</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Tre colori, carta ritagliata, un concetto per pagina (grande/piccolo). Ideale per lessico e confronti.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">matematica</span><span class="chip">inglese</span><span class="chip">spagnolo</span><span class="chip">scienze</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Massima chiarezza tra figura e sfondo.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="gouache and white pencil drawing on dark charcoal-grey paper, a single flashlight beam revealing a cone of soft color, palette of charcoal, chalk white, moss green and one accent of warm yellow, small simple animals with dot eyes, night forest reduced to thin trunk lines, clean graphic composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">gouache and white pencil drawing on dark charcoal-grey paper, a single flashlight beam revealing a cone of soft color, palette of charcoal, chalk white, moss green and one accent of warm yellow, small simple animals with dot eyes, night forest reduced to thin trunk lines, clean graphic composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Lizi Boyd: Inside Outside (2013)"><img loading="lazy" src="contemporanei/boyd-1.jpg" alt="Lizi Boyd: Inside Outside (2013)"></button><figcaption><b>Inside Outside (2013)</b><br>Lizi Boyd · <a href="https://blog.picturebookmakers.com/post/lizi-boyd" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Lizi Boyd: Flashlight (2014)"><img loading="lazy" src="contemporanei/boyd-2.jpg" alt="Lizi Boyd: Flashlight (2014)"></button><figcaption><b>Flashlight (2014)</b><br>Lizi Boyd · <a href="https://blog.picturebookmakers.com/post/lizi-boyd" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Lizi Boyd: Flashlight (2014)"><img loading="lazy" src="contemporanei/boyd-3.jpg" alt="Lizi Boyd: Flashlight (2014)"></button><figcaption><b>Flashlight (2014)</b><br>Lizi Boyd · <a href="https://blog.picturebookmakers.com/post/lizi-boyd" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Lizi Boyd: Flashlight (2014)"><img loading="lazy" src="contemporanei/boyd-4.jpg" alt="Lizi Boyd: Flashlight (2014)"></button><figcaption><b>Flashlight (2014)</b><br>Lizi Boyd · <a href="https://blog.picturebookmakers.com/post/lizi-boyd" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="seeger" data-subj="scienze inglese matematica" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">11 · Contemporaneo</p>
+      <h2>Laura Vaccaro Seeger</h2>
+      <p class="meta">USA · attiva dal 2000 circa</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Honor 2008 – First the Egg <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li><li>Caldecott Honor 2013 – Green <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Acrilico su tela, pagine fustellate con buchi. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>I buchi nella pagina trasformano un&#x27;immagine nella successiva (uovo → pulcino). Ragionamento visivo, non decorazione.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">scienze</span><span class="chip">inglese</span><span class="chip">matematica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Un motivo centrale per pagina, colori pieni.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="thick acrylic paint on canvas with visible brush strokes, saturated palette of leaf green, egg yellow, sky blue and earth brown, simple iconic forms of egg, chick, caterpillar, butterfly, no faces or minimal dot eyes, one central motif per page with die-cut window feeling, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">thick acrylic paint on canvas with visible brush strokes, saturated palette of leaf green, egg yellow, sky blue and earth brown, simple iconic forms of egg, chick, caterpillar, butterfly, no faces or minimal dot eyes, one central motif per page with die-cut window feeling, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Laura Vaccaro Seeger: Green (2012), tavola interna"><img loading="lazy" src="contemporanei/seeger-1.jpg" alt="Laura Vaccaro Seeger: Green (2012), tavola interna"></button><figcaption><b>Green (2012), tavola interna</b><br>Laura Vaccaro Seeger · <a href="https://us.macmillan.com/books/9781596433977/green/" target="_blank" rel="noopener">fonte: us.macmillan.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Laura Vaccaro Seeger: Green (2012), tavola interna"><img loading="lazy" src="contemporanei/seeger-2.jpg" alt="Laura Vaccaro Seeger: Green (2012), tavola interna"></button><figcaption><b>Green (2012), tavola interna</b><br>Laura Vaccaro Seeger · <a href="https://us.macmillan.com/books/9781596433977/green/" target="_blank" rel="noopener">fonte: us.macmillan.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Laura Vaccaro Seeger: First the Egg (2007), tavola interna"><img loading="lazy" src="contemporanei/seeger-3.jpg" alt="Laura Vaccaro Seeger: First the Egg (2007), tavola interna"></button><figcaption><b>First the Egg (2007), tavola interna</b><br>Laura Vaccaro Seeger · <a href="https://us.macmillan.com/books/9781596432727/firsttheegg/" target="_blank" rel="noopener">fonte: us.macmillan.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Laura Vaccaro Seeger: First the Egg (2007), tavola interna"><img loading="lazy" src="contemporanei/seeger-4.jpg" alt="Laura Vaccaro Seeger: First the Egg (2007), tavola interna"></button><figcaption><b>First the Egg (2007), tavola interna</b><br>Laura Vaccaro Seeger · <a href="https://us.macmillan.com/books/9781596432727/firsttheegg/" target="_blank" rel="noopener">fonte: us.macmillan.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="tonatiuh" data-subj="spagnolo storia musica" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">12 · Contemporaneo</p>
+      <h2>Duncan Tonatiuh</h2>
+      <p class="meta">Messico / USA · attivo dal 2010</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>NYT Best Illustrated 2015 – Funny Bones: Posada and His Day of the Dead Calaveras <a class="src" href="https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/68507-n-y-times-announces-2015-best-illustrated-children-s-books.html" target="_blank" rel="noopener">fonte: publishersweekly.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Disegno a mano con texture collage in digitale, ispirato ai codici mixtechi. <span class="tag fact">fatto · dichiarazione dell&#x27;artista (The Horn Book, «Duncan Tonatiuh Talks with Roger»)</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Un linguaggio precolombiano (profili, occhio frontale, colore piatto) applicato a storie di oggi. Il ponte perfetto per lo spagnolo.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">spagnolo</span><span class="chip">storia</span><span class="chip">musica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Figure di profilo isolate su fondo pieno.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="flat illustration inspired by pre-Columbian Mixtec codex art, figures in strict side profile with one large frontal eye and stylized hands, hand-drawn outlines with digitally collaged textures of paper, wood and fabric, palette of terracotta, turquoise, maize yellow, black and warm sand background, frieze-like horizontal composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">flat illustration inspired by pre-Columbian Mixtec codex art, figures in strict side profile with one large frontal eye and stylized hands, hand-drawn outlines with digitally collaged textures of paper, wood and fabric, palette of terracotta, turquoise, maize yellow, black and warm sand background, frieze-like horizontal composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Duncan Tonatiuh: Pancho Rabbit and the Coyote (2013)"><img loading="lazy" src="contemporanei/tonatiuh-1.jpg" alt="Duncan Tonatiuh: Pancho Rabbit and the Coyote (2013)"></button><figcaption><b>Pancho Rabbit and the Coyote (2013)</b><br>Duncan Tonatiuh · <a href="https://duncantonatiuh.com/" target="_blank" rel="noopener">fonte: duncantonatiuh.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Duncan Tonatiuh: The Princess and the Warrior (2016)"><img loading="lazy" src="contemporanei/tonatiuh-2.jpg" alt="Duncan Tonatiuh: The Princess and the Warrior (2016)"></button><figcaption><b>The Princess and the Warrior (2016)</b><br>Duncan Tonatiuh · <a href="https://duncantonatiuh.com/" target="_blank" rel="noopener">fonte: duncantonatiuh.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Duncan Tonatiuh: Dear Primo (2010)"><img loading="lazy" src="contemporanei/tonatiuh-3.jpg" alt="Duncan Tonatiuh: Dear Primo (2010)"></button><figcaption><b>Dear Primo (2010)</b><br>Duncan Tonatiuh · <a href="https://duncantonatiuh.com/" target="_blank" rel="noopener">fonte: duncantonatiuh.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Duncan Tonatiuh: Quetzalcóatl"><img loading="lazy" src="contemporanei/tonatiuh-4.jpg" alt="Duncan Tonatiuh: Quetzalcóatl"></button><figcaption><b>Quetzalcóatl</b><br>Duncan Tonatiuh · <a href="https://duncantonatiuh.com/" target="_blank" rel="noopener">fonte: duncantonatiuh.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="chmielewska" data-subj="italiano storia" data-bes="r" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">13 · Contemporaneo</p>
+      <h2>Iwona Chmielewska</h2>
+      <p class="meta">Polonia · nata nel 1960; molto pubblicata in Corea</p>
+    </div>
+    <span class="bes bes-rosso" title="Bollino BES"><span class="dot"></span>Solo copertina</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>BolognaRagazzi Award New Horizons 2020 – Lullaby for Grandmother <a class="src" href="https://fairtales.bolognachildrensbookfair.com/en/news/bolognaragazzi-award-2020-the-winning-books/10349.html" target="_blank" rel="noopener">fonte: fairtales.bolognachildrensbookfair.com</a></li><li>Shortlist Hans Christian Andersen Award 2024 <a class="src" href="https://www.ibby.org/awards-activities/awards/hans-christian-andersen-award/hans-christian-andersen-awards-2024" target="_blank" rel="noopener">fonte: ibby.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Tecnica mista: scansioni di pizzi, ricami e tessuti, fotografie e disegno a matita. <span class="tag fact">fatto · Bologna Children&#x27;s Book Fair (Fairtales, 2020)</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Collage poetico e concettuale con tessuti e ricami veri.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">storia</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Troppo stratificato e metaforico per una scheda; ottimo come copertina.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="poetic mixed-media collage with scanned lace, embroidery, linen fabric and old paper, fine graphite pencil drawing, muted palette of faded red thread, linen beige, soft grey and ink black, small child figure with minimal pencil face, symbolic object at center, quiet asymmetrical layout, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">poetic mixed-media collage with scanned lace, embroidery, linen fabric and old paper, fine graphite pencil drawing, muted palette of faded red thread, linen beige, soft grey and ink black, small child figure with minimal pencil face, symbolic object at center, quiet asymmetrical layout, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Iwona Chmielewska: Obie (testo di J. Bargielska, Wydawnictwo Wolno)"><img loading="lazy" src="contemporanei/chmielewska-1.jpg" alt="Iwona Chmielewska: Obie (testo di J. Bargielska, Wydawnictwo Wolno)"></button><figcaption><b>Obie (testo di J. Bargielska, Wydawnictwo Wolno)</b><br>Iwona Chmielewska · <a href="https://wydawnictwowolno.pl/ksiegarnia/obie/" target="_blank" rel="noopener">fonte: wydawnictwowolno.pl</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Iwona Chmielewska: Kołysanka na cztery (Wydawnictwo Wolno)"><img loading="lazy" src="contemporanei/chmielewska-2.jpg" alt="Iwona Chmielewska: Kołysanka na cztery (Wydawnictwo Wolno)"></button><figcaption><b>Kołysanka na cztery (Wydawnictwo Wolno)</b><br>Iwona Chmielewska · <a href="https://wydawnictwowolno.pl/iwona-chmielewska-mistrzyni-picture-booka/" target="_blank" rel="noopener">fonte: wydawnictwowolno.pl</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Iwona Chmielewska: Illustrazione dalla mostra «Mistrzowie polskiej ilustracji»"><img loading="lazy" src="contemporanei/chmielewska-3.jpg" alt="Iwona Chmielewska: Illustrazione dalla mostra «Mistrzowie polskiej ilustracji»"></button><figcaption><b>Illustrazione dalla mostra «Mistrzowie polskiej ilustracji»</b><br>Iwona Chmielewska · <a href="https://culture.pl/pl/galeria/wystawa-mistrzowie-polskiej-ilustracji-galeria" target="_blank" rel="noopener">fonte: culture.pl</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Iwona Chmielewska: W królestwie króla Maciusia (Nel regno di re Matteuccio)"><img loading="lazy" src="contemporanei/chmielewska-4.jpg" alt="Iwona Chmielewska: W królestwie króla Maciusia (Nel regno di re Matteuccio)"></button><figcaption><b>W królestwie króla Maciusia (Nel regno di re Matteuccio)</b><br>Iwona Chmielewska · <a href="https://culture.pl/en/gallery/in-the-kingdom-of-king-matt-the-first-in-israel-image-gallery" target="_blank" rel="noopener">fonte: culture.pl</a></figcaption></figure></div>
+</article>
+<article class="card" id="crowther" data-subj="italiano inglese spagnolo" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">14 · Contemporaneo</p>
+      <h2>Kitty Crowther</h2>
+      <p class="meta">Belgio · attiva dagli anni Novanta (nata nel 1970)</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Astrid Lindgren Memorial Award 2010 <a class="src" href="https://alma.se/en/laureates" target="_blank" rel="noopener">fonte: alma.se</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Matite colorate e pastelli. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Creature strane e tenere, tratteggio vibrante, temi profondi (paura, morte, crescita) trattati con leggerezza.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span><span class="chip">spagnolo</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Il tratteggio denso va alleggerito.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="colored pencil and crayon illustration on textured paper, dense vibrating hatching, palette of moss green, cobalt blue, crimson and golden yellow, quirky small creature or child with large simple eyes and no detailed mouth, naive folk-like proportions, intimate forest or house setting reduced to a few trees, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">colored pencil and crayon illustration on textured paper, dense vibrating hatching, palette of moss green, cobalt blue, crimson and golden yellow, quirky small creature or child with large simple eyes and no detailed mouth, naive folk-like proportions, intimate forest or house setting reduced to a few trees, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Kitty Crowther: Mère Méduse (2014)"><img loading="lazy" src="contemporanei/crowther-1.jpg" alt="Kitty Crowther: Mère Méduse (2014)"></button><figcaption><b>Mère Méduse (2014)</b><br>Kitty Crowther · <a href="https://blog.picturebookmakers.com/post/kitty-crowther" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Kitty Crowther: Mère Méduse (2014)"><img loading="lazy" src="contemporanei/crowther-2.jpg" alt="Kitty Crowther: Mère Méduse (2014)"></button><figcaption><b>Mère Méduse (2014)</b><br>Kitty Crowther · <a href="https://blog.picturebookmakers.com/post/kitty-crowther" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Kitty Crowther: Mère Méduse (2014)"><img loading="lazy" src="contemporanei/crowther-3.jpg" alt="Kitty Crowther: Mère Méduse (2014)"></button><figcaption><b>Mère Méduse (2014)</b><br>Kitty Crowther · <a href="https://blog.picturebookmakers.com/post/kitty-crowther" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Kitty Crowther: Mère Méduse (2014)"><img loading="lazy" src="contemporanei/crowther-4.jpg" alt="Kitty Crowther: Mère Méduse (2014)"></button><figcaption><b>Mère Méduse (2014)</b><br>Kitty Crowther · <a href="https://blog.picturebookmakers.com/post/kitty-crowther" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="isol" data-subj="spagnolo italiano musica" data-bes="g" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">15 · Contemporaneo</p>
+      <h2>Isol (Marisol Misenta)</h2>
+      <p class="meta">Argentina · attiva dal 1997 circa</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Astrid Lindgren Memorial Award 2013 <a class="src" href="https://alma.se/en/laureates" target="_blank" rel="noopener">fonte: alma.se</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Inchiostro, stampa e pochi colori piatti. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Segno ironico e volutamente «sbagliato», due o tre colori, umorismo assurdo. Riferimento ideale per lo spagnolo.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">spagnolo</span><span class="chip">italiano</span><span class="chip">musica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Pochi colori, figure grandi, fondo bianco.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="naive ink line drawing with flat printed color fills, three colors only: mustard yellow, deep teal and black on white paper, deliberately clumsy expressive line, characters with big heads, dot eyes and simple open mouth, absurd humorous situation, off-center composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">naive ink line drawing with flat printed color fills, three colors only: mustard yellow, deep teal and black on white paper, deliberately clumsy expressive line, characters with big heads, dot eyes and simple open mouth, absurd humorous situation, off-center composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Isol (Marisol Misenta): La bella Griselda (2010)"><img loading="lazy" src="contemporanei/isol-1.jpg" alt="Isol (Marisol Misenta): La bella Griselda (2010)"></button><figcaption><b>La bella Griselda (2010)</b><br>Isol (Marisol Misenta) · <a href="https://blog.picturebookmakers.com/post/isol" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Isol (Marisol Misenta): La bella Griselda (2010)"><img loading="lazy" src="contemporanei/isol-2.jpg" alt="Isol (Marisol Misenta): La bella Griselda (2010)"></button><figcaption><b>La bella Griselda (2010)</b><br>Isol (Marisol Misenta) · <a href="https://blog.picturebookmakers.com/post/isol" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Isol (Marisol Misenta): La bella Griselda (2010)"><img loading="lazy" src="contemporanei/isol-3.jpg" alt="Isol (Marisol Misenta): La bella Griselda (2010)"></button><figcaption><b>La bella Griselda (2010)</b><br>Isol (Marisol Misenta) · <a href="https://blog.picturebookmakers.com/post/isol" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Isol (Marisol Misenta): La bella Griselda (2010)"><img loading="lazy" src="contemporanei/isol-4.jpg" alt="Isol (Marisol Misenta): La bella Griselda (2010)"></button><figcaption><b>La bella Griselda (2010)</b><br>Isol (Marisol Misenta) · <a href="https://blog.picturebookmakers.com/post/isol" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="watanabe" data-subj="spagnolo storia italiano" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">16 · Contemporaneo</p>
+      <h2>Issa Watanabe</h2>
+      <p class="meta">Perù / Spagna · peruviana, vive in Spagna; silent book (Migrantes, Kintsugi)</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>BolognaRagazzi Award Fiction 2024 – Kintsugi <a class="src" href="https://galleries.bolognachildrensbookfair.com/objects/bolognaragazzi-awards-2024" target="_blank" rel="noopener">fonte: galleries.bolognachildrensbookfair.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Figure a colori piatti su fondo nero; libri senza parole. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Animali-persone in fila su un fondo nero assoluto: il vuoto è il protagonista.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">spagnolo</span><span class="chip">storia</span><span class="chip">italiano</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Contrasto ottimo, ma i temi (migrazione, lutto) vanno mediati.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="wordless picture-book illustration on solid black background, small colorful animal characters with clothes walking in a horizontal line, flat bright colors of coral, mint, lemon yellow and lilac, simple faces with dot eyes, frieze-like procession across the page, strong figure-ground contrast, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">wordless picture-book illustration on solid black background, small colorful animal characters with clothes walking in a horizontal line, flat bright colors of coral, mint, lemon yellow and lilac, simple faces with dot eyes, frieze-like procession across the page, strong figure-ground contrast, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Issa Watanabe: Kintsugi (Libros del Zorro Rojo)"><img loading="lazy" src="contemporanei/watanabe-1.jpg" alt="Issa Watanabe: Kintsugi (Libros del Zorro Rojo)"></button><figcaption><b>Kintsugi (Libros del Zorro Rojo)</b><br>Issa Watanabe · <a href="https://librosdelzorrorojo.com/kintsugi-de-issa-watanabe-elegido-como-mejor-libro-de-ficcion-en-los-premios-bolognaragazzi-2024/" target="_blank" rel="noopener">fonte: librosdelzorrorojo.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Issa Watanabe: Kintsugi, tavola interna"><img loading="lazy" src="contemporanei/watanabe-2.jpg" alt="Issa Watanabe: Kintsugi, tavola interna"></button><figcaption><b>Kintsugi, tavola interna</b><br>Issa Watanabe · <a href="https://www.france24.com/es/américa-latina/20250226-en-la-migración-el-desierto-nunca-se-acaba-la-experiencia-de-la-ilustradora-peruana-issa-watanabe" target="_blank" rel="noopener">fonte: france24.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Issa Watanabe: Migrantes, tavola interna"><img loading="lazy" src="contemporanei/watanabe-3.jpg" alt="Issa Watanabe: Migrantes, tavola interna"></button><figcaption><b>Migrantes, tavola interna</b><br>Issa Watanabe · <a href="https://solisluna.com.br/blogs/solisblogluna/o-belo-livro-migrantes-de-issa-watanabe-traz-ilustracoes-impactantes-sobre-o-drama-dos-refugiados" target="_blank" rel="noopener">fonte: solisluna.com.br</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Issa Watanabe: Migrantes, tavola interna"><img loading="lazy" src="contemporanei/watanabe-4.jpg" alt="Issa Watanabe: Migrantes, tavola interna"></button><figcaption><b>Migrantes, tavola interna</b><br>Issa Watanabe · <a href="https://www.france24.com/es/américa-latina/20250226-en-la-migración-el-desierto-nunca-se-acaba-la-experiencia-de-la-ilustradora-peruana-issa-watanabe" target="_blank" rel="noopener">fonte: france24.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="albertine" data-subj="italiano inglese spagnolo" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">17 · Contemporaneo</p>
+      <h2>Albertine (Albertine Zullo)</h2>
+      <p class="meta">Svizzera · attiva dagli anni Novanta</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Hans Christian Andersen Award (illustrazione) 2020 <a class="src" href="https://www.ibby.org/awards-activities/awards/hans-christian-andersen-award" target="_blank" rel="noopener">fonte: ibby.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Penna fine e colori a matita o tempera. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Due registri: grandi campiture silenziose (Little Bird) e città brulicanti di micro-storie. Segno sottile e umoristico in entrambi.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span><span class="chip">spagnolo</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Dipende dal libro: Little Bird (le immagini qui) è pulitissimo; le sue città brulicanti no. Usare solo tavole come queste.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="soft colored pencil over flat painted color fields, palette of saffron orange ground, turquoise sky, tomato red and cobalt blue, thin delicate outline, one small man with long nose and dot eyes, a few small birds, wide horizontal landscape split into two color bands, cinematic wordless sequence, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">soft colored pencil over flat painted color fields, palette of saffron orange ground, turquoise sky, tomato red and cobalt blue, thin delicate outline, one small man with long nose and dot eyes, a few small birds, wide horizontal landscape split into two color bands, cinematic wordless sequence, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"><img loading="lazy" src="contemporanei/albertine-1.jpg" alt="Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"></button><figcaption><b>Little Bird (con Germano Zullo, 2010; ed. USA 2012)</b><br>Albertine (Albertine Zullo) · <a href="https://www.themarginalian.org/2012/05/16/albertine-little-bird/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"><img loading="lazy" src="contemporanei/albertine-2.jpg" alt="Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"></button><figcaption><b>Little Bird (con Germano Zullo, 2010; ed. USA 2012)</b><br>Albertine (Albertine Zullo) · <a href="https://www.themarginalian.org/2012/05/16/albertine-little-bird/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"><img loading="lazy" src="contemporanei/albertine-3.jpg" alt="Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"></button><figcaption><b>Little Bird (con Germano Zullo, 2010; ed. USA 2012)</b><br>Albertine (Albertine Zullo) · <a href="https://www.themarginalian.org/2012/05/16/albertine-little-bird/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"><img loading="lazy" src="contemporanei/albertine-4.jpg" alt="Albertine (Albertine Zullo): Little Bird (con Germano Zullo, 2010; ed. USA 2012)"></button><figcaption><b>Little Bird (con Germano Zullo, 2010; ed. USA 2012)</b><br>Albertine (Albertine Zullo) · <a href="https://www.themarginalian.org/2012/05/16/albertine-little-bird/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="alemagna" data-subj="italiano inglese" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">18 · Contemporaneo · italiano</p>
+      <h2>Beatrice Alemagna</h2>
+      <p class="meta">Italia · nata a Bologna nel 1973, vive a Parigi; pubblica dalla fine degli anni Novanta</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Premio Andersen, miglior illustratrice 2010 <a class="src" href="https://www.andersen.it/albodoro/" target="_blank" rel="noopener">fonte: andersen.it</a></li><li>Shortlist Hans Christian Andersen Award 2026 <a class="src" href="https://www.ibby.org/awards-activities/awards/hans-christian-andersen-award/hans-christian-andersen-awards-2026" target="_blank" rel="noopener">fonte: ibby.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Tecnica mista: pastelli, collage, tempera. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Colori acidi (rosa fluo, arancio) accanto a segni infantili e materici; personaggi «imperfetti» e pieni di carattere.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Le texture vanno ridotte.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="mixed-media illustration with oil pastel, crayon and paper collage, palette of fluorescent pink, bright orange, deep forest green and black on raw paper, scratchy childlike marks and rubbed textures, one quirky child with rosy cheeks and simple dot eyes, bold off-balance composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">mixed-media illustration with oil pastel, crayon and paper collage, palette of fluorescent pink, bright orange, deep forest green and black on raw paper, scratchy childlike marks and rubbed textures, one quirky child with rosy cheeks and simple dot eyes, bold off-balance composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"><img loading="lazy" src="contemporanei/alemagna-1.jpg" alt="Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"></button><figcaption><b>Le Merveilleux Dodu-Velu-Petit (2014)</b><br>Beatrice Alemagna · <a href="https://blog.picturebookmakers.com/post/beatrice-alemagna" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"><img loading="lazy" src="contemporanei/alemagna-2.jpg" alt="Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"></button><figcaption><b>Le Merveilleux Dodu-Velu-Petit (2014)</b><br>Beatrice Alemagna · <a href="https://blog.picturebookmakers.com/post/beatrice-alemagna" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"><img loading="lazy" src="contemporanei/alemagna-3.jpg" alt="Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"></button><figcaption><b>Le Merveilleux Dodu-Velu-Petit (2014)</b><br>Beatrice Alemagna · <a href="https://blog.picturebookmakers.com/post/beatrice-alemagna" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"><img loading="lazy" src="contemporanei/alemagna-4.jpg" alt="Beatrice Alemagna: Le Merveilleux Dodu-Velu-Petit (2014)"></button><figcaption><b>Le Merveilleux Dodu-Velu-Petit (2014)</b><br>Beatrice Alemagna · <a href="https://blog.picturebookmakers.com/post/beatrice-alemagna" target="_blank" rel="noopener">fonte: blog.picturebookmakers.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="sanna" data-subj="storia scienze italiano" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">19 · Contemporaneo · italiano</p>
+      <h2>Alessandro Sanna</h2>
+      <p class="meta">Italia · nato a Nogara nel 1975; primo libro nel 2001</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Premio Andersen, miglior illustratore 2009 <a class="src" href="https://www.andersen.it/albodoro/" target="_blank" rel="noopener">fonte: andersen.it</a></li><li>Premio Andersen 2014 – Fiume lento (categoria riportata in modo diverso dalle fonti) <a class="src" href="https://corraini.com/en/collections/alessandro-sanna" target="_blank" rel="noopener">fonte: corraini.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Acquerello e tempera per grandi panorami senza parole. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Il paesaggio padano reso con macchie d&#x27;acqua e figure minuscole: un racconto fatto di orizzonti.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">storia</span><span class="chip">scienze</span><span class="chip">italiano</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Belle ma sfumate: scegliere tavole con una figura riconoscibile.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="fluid watercolor panorama with wet-in-wet washes, palette of river grey-green, fog white, earth umber and touches of brick red, tiny figures painted as simple brush marks without faces, very wide horizontal river landscape, low horizon, atmospheric mist, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">fluid watercolor panorama with wet-in-wet washes, palette of river grey-green, fog white, earth umber and touches of brick red, tiny figures painted as simple brush marks without faces, very wide horizontal river landscape, low horizon, atmospheric mist, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"><img loading="lazy" src="contemporanei/sanna-1.jpg" alt="Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"></button><figcaption><b>Fiume lento / The River (2013; ed. USA 2014)</b><br>Alessandro Sanna · <a href="https://www.themarginalian.org/2014/02/27/the-river-alessandro-sanna/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"><img loading="lazy" src="contemporanei/sanna-2.jpg" alt="Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"></button><figcaption><b>Fiume lento / The River (2013; ed. USA 2014)</b><br>Alessandro Sanna · <a href="https://www.themarginalian.org/2014/02/27/the-river-alessandro-sanna/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"><img loading="lazy" src="contemporanei/sanna-3.jpg" alt="Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"></button><figcaption><b>Fiume lento / The River (2013; ed. USA 2014)</b><br>Alessandro Sanna · <a href="https://www.themarginalian.org/2014/02/27/the-river-alessandro-sanna/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"><img loading="lazy" src="contemporanei/sanna-4.jpg" alt="Alessandro Sanna: Fiume lento / The River (2013; ed. USA 2014)"></button><figcaption><b>Fiume lento / The River (2013; ed. USA 2014)</b><br>Alessandro Sanna · <a href="https://www.themarginalian.org/2014/02/27/the-river-alessandro-sanna/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="labate" data-subj="storia italiano" data-bes="y" data-group="c">
+  <header class="card-head">
+    <div>
+      <p class="num">20 · Contemporaneo · italiano</p>
+      <h2>Isabella Labate</h2>
+      <p class="meta">Italia · nata a Savona nel 1968, allieva di Luzzati; pubblica dal 1994</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Premio Andersen, miglior illustratrice 2024 <a class="src" href="http://www.forkids.it/2024/05/21/premio-andersen-2024/" target="_blank" rel="noopener">fonte: forkids.it</a></li><li>White Ravens 2019 – Tre in tutto <a class="src" href="https://www.artribune.com/mostre-evento-arte/isabella-labate-raccontare-le-immagini/" target="_blank" rel="noopener">fonte: artribune.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Grafite, in bianco e nero per scelta. <span class="tag fact">fatto · Galline Volanti; Artribune</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Grafite quasi fotografica e inquadrature da cinema neorealista: racconta la storia senza colore.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">storia</span><span class="chip">italiano</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Realismo e grigi a basso contrasto: semplificare.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="graphite pencil drawing on smooth white paper, monochrome black, soft greys and white only, cinematic framing inspired by neorealist film stills, realistic but simplified figures with calm faces, strong light from one side, single subject such as an old fisherman and a boat, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">graphite pencil drawing on smooth white paper, monochrome black, soft greys and white only, cinematic framing inspired by neorealist film stills, realistic but simplified figures with calm faces, strong light from one side, single subject such as an old fisherman and a boat, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Isabella Labate: Il vecchio e il mare (Orecchio Acerbo)"><img loading="lazy" src="contemporanei/labate-1.jpg" alt="Isabella Labate: Il vecchio e il mare (Orecchio Acerbo)"></button><figcaption><b>Il vecchio e il mare (Orecchio Acerbo)</b><br>Isabella Labate · <a href="https://hobook.it/il-vecchio-e-il-mare-labate/" target="_blank" rel="noopener">fonte: hobook.it</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Isabella Labate: Il vecchio e il mare, tavola in mostra (Museo della Stampa, Mondovì)"><img loading="lazy" src="contemporanei/labate-2.jpg" alt="Isabella Labate: Il vecchio e il mare, tavola in mostra (Museo della Stampa, Mondovì)"></button><figcaption><b>Il vecchio e il mare, tavola in mostra (Museo della Stampa, Mondovì)</b><br>Isabella Labate · <a href="https://www.cuneodice.it/eventi/monregalese/al-museo-civico-della-stampa-di-mondovi-una-mostra-di-illustrazioni-omaggio-a-il-vecchio-e-il-mare_74260.html" target="_blank" rel="noopener">fonte: cuneodice.it</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Isabella Labate: Un tempo per ogni cosa"><img loading="lazy" src="contemporanei/labate-3.jpg" alt="Isabella Labate: Un tempo per ogni cosa"></button><figcaption><b>Un tempo per ogni cosa</b><br>Isabella Labate · <a href="https://hobook.it/un-tempo-per-ogni-cosa/" target="_blank" rel="noopener">fonte: hobook.it</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Isabella Labate: Un tempo per ogni cosa"><img loading="lazy" src="contemporanei/labate-4.jpg" alt="Isabella Labate: Un tempo per ogni cosa"></button><figcaption><b>Un tempo per ogni cosa</b><br>Isabella Labate · <a href="https://hobook.it/un-tempo-per-ogni-cosa/" target="_blank" rel="noopener">fonte: hobook.it</a></figcaption></figure></div>
+</article>
+<article class="card" id="munari" data-subj="matematica scienze italiano" data-bes="g" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">21 · Maestro · italiano</p>
+      <h2>Bruno Munari</h2>
+      <p class="meta">Italia · 1907–1998</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Premio Andersen (Italia) «miglior autore per l&#x27;infanzia» 1974 <a class="src" href="http://www.brunomunari.it/index_munari.htm" target="_blank" rel="noopener">fonte: brunomunari.it</a></li><li>Compasso d&#x27;Oro 1954, 1955, 1979 <a class="src" href="http://www.brunomunari.it/index_munari.htm" target="_blank" rel="noopener">fonte: brunomunari.it</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Grafica, carte trasparenti e fustellate, «libri illeggibili». <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Il libro come oggetto da esplorare: forme pure, buchi, trasparenze. Design prima che illustrazione.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">matematica</span><span class="chip">scienze</span><span class="chip">italiano</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Forme geometriche nette e molto bianco.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="modernist graphic illustration with primary geometric shapes, cut and layered translucent papers, palette of pure red, cobalt blue, lemon yellow and black on white, die-cut holes and overlapping tracing-paper layers, abstract playful forms, rigorous asymmetric balance, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">modernist graphic illustration with primary geometric shapes, cut and layered translucent papers, palette of pure red, cobalt blue, lemon yellow and black on white, die-cut holes and overlapping tracing-paper layers, abstract playful forms, rigorous asymmetric balance, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Bruno Munari: The Elephant&#x27;s Wish (Il desiderio dell&#x27;elefante, 1945)"><img loading="lazy" src="maestri/munari-1.jpg" alt="Bruno Munari: The Elephant&#x27;s Wish (Il desiderio dell&#x27;elefante, 1945)"></button><figcaption><b>The Elephant&#x27;s Wish (Il desiderio dell&#x27;elefante, 1945)</b><br>Bruno Munari · <a href="https://www.themarginalian.org/2012/04/20/childrens-books-by-graphic-designers/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Bruno Munari: Nella nebbia di Milano (1968), fotografia del libro"><img loading="lazy" src="maestri/munari-2.jpg" alt="Bruno Munari: Nella nebbia di Milano (1968), fotografia del libro"></button><figcaption><b>Nella nebbia di Milano (1968), fotografia del libro</b><br>Bruno Munari · <a href="https://www.themarginalian.org/2014/06/12/bruno-munari-nella-nebbia-nella-notte/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Bruno Munari: Nella nebbia di Milano (1968), fotografia del libro"><img loading="lazy" src="maestri/munari-3.jpg" alt="Bruno Munari: Nella nebbia di Milano (1968), fotografia del libro"></button><figcaption><b>Nella nebbia di Milano (1968), fotografia del libro</b><br>Bruno Munari · <a href="https://www.themarginalian.org/2014/06/12/bruno-munari-nella-nebbia-nella-notte/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Bruno Munari: Nella notte buia (1956), fotografia del libro"><img loading="lazy" src="maestri/munari-4.jpg" alt="Bruno Munari: Nella notte buia (1956), fotografia del libro"></button><figcaption><b>Nella notte buia (1956), fotografia del libro</b><br>Bruno Munari · <a href="https://www.themarginalian.org/2014/06/12/bruno-munari-nella-nebbia-nella-notte/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="lionni" data-subj="italiano scienze matematica" data-bes="g" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">22 · Maestro</p>
+      <h2>Leo Lionni</h2>
+      <p class="meta">Paesi Bassi / Italia / USA · 1910–1999</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Honor 1961 (Inch by Inch), 1964 (Swimmy), 1968 (Frederick), 1970 (Alexander and the Wind-Up Mouse) <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Collage di carte strappate, stampi e monotipi. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Animali fatti di carta strappata, favole morali con un piccolo eroe davanti a un gruppo o a uno spazio grande.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">scienze</span><span class="chip">matematica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Poche sagome su fondo bianco.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="torn-paper collage with soft feathered edges, stamped and monoprinted textures, palette of sea blue, leaf green, mouse grey and a single red accent on white, simple animals made of torn shapes with round dot eyes, one small hero facing a large group or space, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">torn-paper collage with soft feathered edges, stamped and monoprinted textures, palette of sea blue, leaf green, mouse grey and a single red accent on white, simple animals made of torn shapes with round dot eyes, one small hero facing a large group or space, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Leo Lionni: Frederick (1967)"><img loading="lazy" src="maestri/lionni-1.jpg" alt="Leo Lionni: Frederick (1967)"></button><figcaption><b>Frederick (1967)</b><br>Leo Lionni · <a href="https://www.themarginalian.org/2026/09/20/leo-lionni-frederick/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Leo Lionni: Frederick (1967)"><img loading="lazy" src="maestri/lionni-2.jpg" alt="Leo Lionni: Frederick (1967)"></button><figcaption><b>Frederick (1967)</b><br>Leo Lionni · <a href="https://www.themarginalian.org/2026/09/20/leo-lionni-frederick/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Leo Lionni: Frederick (1967)"><img loading="lazy" src="maestri/lionni-3.jpg" alt="Leo Lionni: Frederick (1967)"></button><figcaption><b>Frederick (1967)</b><br>Leo Lionni · <a href="https://www.themarginalian.org/2026/09/20/leo-lionni-frederick/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Leo Lionni: Little Blue and Little Yellow (1959)"><img loading="lazy" src="maestri/lionni-4.jpg" alt="Leo Lionni: Little Blue and Little Yellow (1959)"></button><figcaption><b>Little Blue and Little Yellow (1959)</b><br>Leo Lionni · <a href="https://www.themarginalian.org/2014/02/20/leo-lionni-annie-lionni-creativity/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="luzzati" data-subj="musica italiano storia" data-bes="y" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">23 · Maestro · italiano</p>
+      <h2>Emanuele Luzzati</h2>
+      <p class="meta">Italia · 1921–2007</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Candidature all&#x27;Oscar per La gazza ladra (1966) e Pulcinella (1974) <a class="src" href="https://www.a-g-i.org/user/emanueleluzzati/" target="_blank" rel="noopener">fonte: a-g-i.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Figure ritagliate e collage; anche ceramica, scenografia, arazzi. <span class="tag fact">fatto · LFB – Letteratura per l&#x27;infanzia</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Teatro di carta: marionette popolari, colori caldi, decorazione da palcoscenico.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">musica</span><span class="chip">italiano</span><span class="chip">storia</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Molto decorativo: chiedere una sola figura.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="theatrical cut-paper and collage illustration, hand-painted paper scraps with gouache and crayon, palette of vermilion, golden yellow, cobalt blue and black on warm off-white, folk puppet-like characters with round faces and simple painted eyes, stage-like frontal composition, decorative but sparse, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">theatrical cut-paper and collage illustration, hand-painted paper scraps with gouache and crayon, palette of vermilion, golden yellow, cobalt blue and black on warm off-white, folk puppet-like characters with round faces and simple painted eyes, stage-like frontal composition, decorative but sparse, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Emanuele Luzzati: A tavola con il re (Archivio Fondazione Zavrel)"><img loading="lazy" src="maestri/luzzati-1.jpg" alt="Emanuele Luzzati: A tavola con il re (Archivio Fondazione Zavrel)"></button><figcaption><b>A tavola con il re (Archivio Fondazione Zavrel)</b><br>Emanuele Luzzati · <a href="https://fondazionezavrel.it/archivio-illustratori/a-tavola-con-il-re/" target="_blank" rel="noopener">fonte: fondazionezavrel.it</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Emanuele Luzzati: Dulcamara – L&#x27;elisir d&#x27;amore (2006), pastelli a olio e collage"><img loading="lazy" src="maestri/luzzati-2.jpg" alt="Emanuele Luzzati: Dulcamara – L&#x27;elisir d&#x27;amore (2006), pastelli a olio e collage"></button><figcaption><b>Dulcamara – L&#x27;elisir d&#x27;amore (2006), pastelli a olio e collage</b><br>Emanuele Luzzati · <a href="https://www.artemattamilano.com/index.php/portfolio-articoli/emanuele-luzzati/" target="_blank" rel="noopener">fonte: artemattamilano.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Emanuele Luzzati: Il flauto magico, serigrafia"><img loading="lazy" src="maestri/luzzati-3.jpg" alt="Emanuele Luzzati: Il flauto magico, serigrafia"></button><figcaption><b>Il flauto magico, serigrafia</b><br>Emanuele Luzzati · <a href="https://galleriamontmartre.com/opere-grafiche/flauto-magico/" target="_blank" rel="noopener">fonte: galleriamontmartre.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Emanuele Luzzati: Il flauto magico, stampa"><img loading="lazy" src="maestri/luzzati-4.jpg" alt="Emanuele Luzzati: Il flauto magico, stampa"></button><figcaption><b>Il flauto magico, stampa</b><br>Emanuele Luzzati · <a href="https://www.iltorchiodiportaromana.com/shop-online/luzzati-35x53-flauto-magico/" target="_blank" rel="noopener">fonte: iltorchiodiportaromana.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="carle" data-subj="scienze matematica inglese" data-bes="g" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">24 · Maestro</p>
+      <h2>Eric Carle</h2>
+      <p class="meta">USA / Germania · 1929–2021</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Laura Ingalls Wilder Award 2003 <a class="src" href="https://www.ala.org/news/news/pressreleases2003/authorartist" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Collage di carte velina dipinte a mano. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Animali e insetti costruiti con carte dipinte a mano: texture visibile, colori pieni, molto bianco.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">scienze</span><span class="chip">matematica</span><span class="chip">inglese</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Un animale su pagina bianca.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="collage of hand-painted tissue papers with visible brush strokes and textures, palette of grass green, cherry red, sun yellow and violet on pure white, cut-out shapes with soft rounded outlines, simple insect or animal with dot eye, one creature on large white page, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">collage of hand-painted tissue papers with visible brush strokes and textures, palette of grass green, cherry red, sun yellow and violet on pure white, cut-out shapes with soft rounded outlines, simple insect or animal with dot eye, one creature on large white page, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Eric Carle: The Very Hungry Caterpillar (1969), tavola originale"><img loading="lazy" src="maestri/carle-1.jpg" alt="Eric Carle: The Very Hungry Caterpillar (1969), tavola originale"></button><figcaption><b>The Very Hungry Caterpillar (1969), tavola originale</b><br>Eric Carle · <a href="https://carlemuseum.org/explore-art/exhibitions/past-exhibition/colorful-world-eric-carle" target="_blank" rel="noopener">fonte: carlemuseum.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Eric Carle: The Very Hungry Caterpillar (1969), tavola originale"><img loading="lazy" src="maestri/carle-2.jpg" alt="Eric Carle: The Very Hungry Caterpillar (1969), tavola originale"></button><figcaption><b>The Very Hungry Caterpillar (1969), tavola originale</b><br>Eric Carle · <a href="https://carlemuseum.org/explore-art/exhibitions/eric-carle/past" target="_blank" rel="noopener">fonte: carlemuseum.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Eric Carle: Illustrazione dalla mostra «Under the Sea with Eric Carle»"><img loading="lazy" src="maestri/carle-3.jpg" alt="Eric Carle: Illustrazione dalla mostra «Under the Sea with Eric Carle»"></button><figcaption><b>Illustrazione dalla mostra «Under the Sea with Eric Carle»</b><br>Eric Carle · <a href="https://carlemuseum.org/art-books/borrow-art/available-exhibitions/under-sea-eric-carle" target="_blank" rel="noopener">fonte: carlemuseum.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Eric Carle: Brown Bear, Brown Bear, What Do You See? (testo di Bill Martin Jr.)"><img loading="lazy" src="maestri/carle-4.jpg" alt="Eric Carle: Brown Bear, Brown Bear, What Do You See? (testo di Bill Martin Jr.)"></button><figcaption><b>Brown Bear, Brown Bear, What Do You See? (testo di Bill Martin Jr.)</b><br>Eric Carle · <a href="https://carlemuseum.org/explore-art/exhibitions/past-exhibition/eric-carle-re-imaged-and-re-imagined" target="_blank" rel="noopener">fonte: carlemuseum.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="provensen" data-subj="storia inglese scienze" data-bes="y" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">25 · Maestro</p>
+      <h2>Alice e Martin Provensen</h2>
+      <p class="meta">USA · Alice 1918–2018, Martin 1916–1987; in coppia dal 1947 circa</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Medal 1984 – The Glorious Flight <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li><li>Caldecott Honor 1982 – A Visit to William Blake&#x27;s Inn <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Gouache e linea, gusto folk e mid-century. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Prospettiva appiattita, figure stilizzate, palette smorzata: arte popolare americana in chiave moderna.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">storia</span><span class="chip">inglese</span><span class="chip">scienze</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Scene ricche: chiedere un solo soggetto.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="mid-century folk-art gouache illustration with fine ink line, muted palette of brick red, mustard, sage green and parchment, stylized figures with simple oval faces and dot eyes, flattened perspective, early aeroplane or farm scene reduced to essentials, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">mid-century folk-art gouache illustration with fine ink line, muted palette of brick red, mustard, sage green and parchment, stylized figures with simple oval faces and dot eyes, flattened perspective, early aeroplane or farm scene reduced to essentials, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Alice e Martin Provensen: The Animal Fair (1952)"><img loading="lazy" src="maestri/provensen-1.jpg" alt="Alice e Martin Provensen: The Animal Fair (1952)"></button><figcaption><b>The Animal Fair (1952)</b><br>Alice e Martin Provensen · <a href="https://www.themarginalian.org/2012/04/25/the-animal-fair-provensen/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Alice e Martin Provensen: The Animal Fair (1952)"><img loading="lazy" src="maestri/provensen-2.jpg" alt="Alice e Martin Provensen: The Animal Fair (1952)"></button><figcaption><b>The Animal Fair (1952)</b><br>Alice e Martin Provensen · <a href="https://www.themarginalian.org/2012/04/25/the-animal-fair-provensen/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Alice e Martin Provensen: The Animal Fair (1952)"><img loading="lazy" src="maestri/provensen-3.jpg" alt="Alice e Martin Provensen: The Animal Fair (1952)"></button><figcaption><b>The Animal Fair (1952)</b><br>Alice e Martin Provensen · <a href="https://www.themarginalian.org/2012/04/25/the-animal-fair-provensen/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Alice e Martin Provensen: The Iliad and the Odyssey (1956)"><img loading="lazy" src="maestri/provensen-4.jpg" alt="Alice e Martin Provensen: The Iliad and the Odyssey (1956)"></button><figcaption><b>The Iliad and the Odyssey (1956)</b><br>Alice e Martin Provensen · <a href="https://www.themarginalian.org/tag/provensens/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="ungerer" data-subj="italiano inglese" data-bes="g" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">26 · Maestro</p>
+      <h2>Tomi Ungerer</h2>
+      <p class="meta">Francia · 1931–2019</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Hans Christian Andersen Award (illustrazione) 1998 <a class="src" href="https://www.ibby.org/awards-activities/awards/hans-christian-andersen-award" target="_blank" rel="noopener">fonte: ibby.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Penna e acquerello con campiture piatte. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Sagome nere su fondi pieni, ironia e un pizzico di nero: I tre briganti è una lezione di contrasto.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">italiano</span><span class="chip">inglese</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Figure nere su fondo pieno, chiarissime.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="bold pen and ink line with flat watercolor washes, palette of midnight blue, black, crimson and gold, sharp silhouettes of cloaked figures with only eyes visible, night scene, simple dramatic composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">bold pen and ink line with flat watercolor washes, palette of midnight blue, black, crimson and gold, sharp silhouettes of cloaked figures with only eyes visible, night scene, simple dramatic composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Tomi Ungerer: Moon Man (1966)"><img loading="lazy" src="maestri/ungerer-1.jpg" alt="Tomi Ungerer: Moon Man (1966)"></button><figcaption><b>Moon Man (1966)</b><br>Tomi Ungerer · <a href="https://www.themarginalian.org/2016/11/28/moon-man-tomi-ungerer/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Tomi Ungerer: Moon Man (1966)"><img loading="lazy" src="maestri/ungerer-2.jpg" alt="Tomi Ungerer: Moon Man (1966)"></button><figcaption><b>Moon Man (1966)</b><br>Tomi Ungerer · <a href="https://www.themarginalian.org/2016/11/28/moon-man-tomi-ungerer/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Tomi Ungerer: Snail, Where Are You? (1962)"><img loading="lazy" src="maestri/ungerer-3.jpg" alt="Tomi Ungerer: Snail, Where Are You? (1962)"></button><figcaption><b>Snail, Where Are You? (1962)</b><br>Tomi Ungerer · <a href="https://www.themarginalian.org/2016/07/19/tomi-ungerer-snail-where-are-you/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Tomi Ungerer: Snail, Where Are You? (1962)"><img loading="lazy" src="maestri/ungerer-4.jpg" alt="Tomi Ungerer: Snail, Where Are You? (1962)"></button><figcaption><b>Snail, Where Are You? (1962)</b><br>Tomi Ungerer · <a href="https://www.themarginalian.org/2016/07/19/tomi-ungerer-snail-where-are-you/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure></div>
+</article>
+<article class="card" id="keats" data-subj="inglese scienze italiano" data-bes="g" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">27 · Maestro</p>
+      <h2>Ezra Jack Keats</h2>
+      <p class="meta">USA · 1916–1983</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Medal 1963 – The Snowy Day <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li><li>Caldecott Honor 1970 – Goggles! <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Collage di carte stampate e marmorizzate, con pittura. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>La città vista da un bambino, fatta di carte stampate: tra i primi protagonisti afroamericani in un albo di grande diffusione.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">inglese</span><span class="chip">scienze</span><span class="chip">italiano</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Un bambino, pochi oggetti, fondo chiaro.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="collage of patterned papers, marbled paper and gouache, palette of snow white, bright red, warm brown and soft pastel blues, small child in red snowsuit with simple face, city in snow reduced to flat shapes, footprints and simple tracks, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">collage of patterned papers, marbled paper and gouache, palette of snow white, bright red, warm brown and soft pastel blues, small child in red snowsuit with simple face, city in snow reduced to flat shapes, footprints and simple tracks, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Ezra Jack Keats: The Snowy Day (1962), tavola originale"><img loading="lazy" src="maestri/keats-1.jpg" alt="Ezra Jack Keats: The Snowy Day (1962), tavola originale"></button><figcaption><b>The Snowy Day (1962), tavola originale</b><br>Ezra Jack Keats · <a href="https://www.themarginalian.org/2020/06/17/a-poem-for-peter-ezra-jack-keats/" target="_blank" rel="noopener">fonte: themarginalian.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Ezra Jack Keats: The Snowy Day (1962), tavola originale in mostra"><img loading="lazy" src="maestri/keats-2.jpg" alt="Ezra Jack Keats: The Snowy Day (1962), tavola originale in mostra"></button><figcaption><b>The Snowy Day (1962), tavola originale in mostra</b><br>Ezra Jack Keats · <a href="https://www.skirball.org/museum/snowy-day-and-art-ezra-jack-keats" target="_blank" rel="noopener">fonte: skirball.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Ezra Jack Keats: The Snowy Day (1962), copertina"><img loading="lazy" src="maestri/keats-3.jpg" alt="Ezra Jack Keats: The Snowy Day (1962), copertina"></button><figcaption><b>The Snowy Day (1962), copertina</b><br>Ezra Jack Keats · <a href="https://rockwellcenter.org/wp-content/uploads/2015/01/TheSnowyDay.jpg" target="_blank" rel="noopener">fonte: rockwellcenter.org</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Ezra Jack Keats: The Snowy Day (1962), tavola originale (mostra Skirball)"><img loading="lazy" src="maestri/keats-4.jpg" alt="Ezra Jack Keats: The Snowy Day (1962), tavola originale (mostra Skirball)"></button><figcaption><b>The Snowy Day (1962), tavola originale (mostra Skirball)</b><br>Ezra Jack Keats · <a href="http://museumstories.com/2014/04/30/a-family-must-see-the-snowy-day-the-art-of-ezra-jack-keats-at-the-skirball/" target="_blank" rel="noopener">fonte: museumstories.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="frasconi" data-subj="inglese spagnolo storia" data-bes="y" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">28 · Maestro</p>
+      <h2>Antonio Frasconi</h2>
+      <p class="meta">Uruguay / USA · 1919–2013</p>
+    </div>
+    <span class="bes bes-giallo" title="Bollino BES"><span class="dot"></span>Da semplificare</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Caldecott Honor 1959 – The House that Jack Built <a class="src" href="https://www.ala.org/sites/default/files/2025-09/caldecott-medal-honors-to-present.pdf" target="_blank" rel="noopener">fonte: ala.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Xilografia. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Il riferimento puro dell&#x27;incisione su legno: bianchi scavati, colori a blocchi.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">inglese</span><span class="chip">spagnolo</span><span class="chip">storia</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Il segno inciso è denso: chiedere un solo soggetto.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="woodcut print with gouged wood grain texture, flat blocks of color in deep red, ochre, black and leaf green on rough cream paper, chunky carved outlines, simple house, animal or figure with carved minimal face, bold folk composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">woodcut print with gouged wood grain texture, flat blocks of color in deep red, ochre, black and leaf green on rough cream paper, chunky carved outlines, simple house, animal or figure with carved minimal face, bold folk composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Antonio Frasconi: Alhambra (xilografia)"><img loading="lazy" src="maestri/frasconi-1.jpg" alt="Antonio Frasconi: Alhambra (xilografia)"></button><figcaption><b>Alhambra (xilografia)</b><br>Antonio Frasconi · <a href="https://www.artsy.net/artwork/antonio-frasconi-alhambra-x" target="_blank" rel="noopener">fonte: artsy.net</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Antonio Frasconi: The Sea and the Stars (xilografia)"><img loading="lazy" src="maestri/frasconi-2.jpg" alt="Antonio Frasconi: The Sea and the Stars (xilografia)"></button><figcaption><b>The Sea and the Stars (xilografia)</b><br>Antonio Frasconi · <a href="https://www.artsy.net/artwork/antonio-frasconi-the-sea-and-the-stars" target="_blank" rel="noopener">fonte: artsy.net</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Antonio Frasconi: Sioux Plains (xilografia)"><img loading="lazy" src="maestri/frasconi-3.jpg" alt="Antonio Frasconi: Sioux Plains (xilografia)"></button><figcaption><b>Sioux Plains (xilografia)</b><br>Antonio Frasconi · <a href="https://www.mutualart.com/Artwork/Sioux-Plains/6A25DE0BCBAAB63F177B13A60543830E" target="_blank" rel="noopener">fonte: mutualart.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Antonio Frasconi: A Book of Vegetable Plants / The Crow and the Pitcher, xilografie (foto del libro)"><img loading="lazy" src="maestri/frasconi-4.jpg" alt="Antonio Frasconi: A Book of Vegetable Plants / The Crow and the Pitcher, xilografie (foto del libro)"></button><figcaption><b>A Book of Vegetable Plants / The Crow and the Pitcher, xilografie (foto del libro)</b><br>Antonio Frasconi · <a href="https://first-folio.cdn.bibliopolis.com/pictures/24176_4.jpg" target="_blank" rel="noopener">fonte: first-folio.cdn.bibliopolis.com</a></figcaption></figure></div>
+</article>
+<article class="card" id="pacovska" data-subj="matematica" data-bes="r" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">29 · Maestro</p>
+      <h2>Květa Pacovská</h2>
+      <p class="meta">Repubblica Ceca · 1928–2023</p>
+    </div>
+    <span class="bes bes-rosso" title="Bollino BES"><span class="dot"></span>Solo copertina</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Hans Christian Andersen Award (illustrazione) 1992 <a class="src" href="https://www.ibby.org/awards-activities/awards/hans-christian-andersen-award" target="_blank" rel="noopener">fonte: ibby.org</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Collage, colore puro, libri-oggetto. <span class="tag unv">non verificata su fonte aperta</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Avanguardia nel libro per bambini: campiture pure, ritagli, alette, figure fatte di cerchi e triangoli.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">matematica</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Astratto e ambiguo per una scheda.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="avant-garde picture-book collage with pure color fields, palette of signal red, emerald, black and silver on white, geometric shapes, cut-outs and fold-like flaps, abstract figure built from circles and triangles, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">avant-garde picture-book collage with pure color fields, palette of signal red, emerald, black and silver on white, geometric shapes, cut-outs and fold-like flaps, abstract figure built from circles and triangles, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Květa Pacovská: Libro illustrato, doppia pagina (foto del libro)"><img loading="lazy" src="maestri/pacovska-1.jpg" alt="Květa Pacovská: Libro illustrato, doppia pagina (foto del libro)"></button><figcaption><b>Libro illustrato, doppia pagina (foto del libro)</b><br>Květa Pacovská · <a href="https://flyingbooks.base.shop/items/81529075" target="_blank" rel="noopener">fonte: flyingbooks.base.shop</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Květa Pacovská: Le Théâtre de minuit, doppia pagina (foto del libro)"><img loading="lazy" src="maestri/pacovska-2.jpg" alt="Květa Pacovská: Le Théâtre de minuit, doppia pagina (foto del libro)"></button><figcaption><b>Le Théâtre de minuit, doppia pagina (foto del libro)</b><br>Květa Pacovská · <a href="https://www.iberlibro.com/primera-edicion/théâtre-minuit-Kveta-Pacovska-Agnès-Inhauser/21350119455/bd" target="_blank" rel="noopener">fonte: iberlibro.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Květa Pacovská: Illustrazione (IBBY Catalunya)"><img loading="lazy" src="maestri/pacovska-3.jpg" alt="Květa Pacovská: Illustrazione (IBBY Catalunya)"></button><figcaption><b>Illustrazione (IBBY Catalunya)</b><br>Květa Pacovská · <a href="https://www.ibbycat.cat/mor-als-94-anys-la-illustradora-i-artista-txeca-kveta-pacovska/" target="_blank" rel="noopener">fonte: ibbycat.cat</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Květa Pacovská: Libro con pagine tagliate a strisce (foto del libro)"><img loading="lazy" src="maestri/pacovska-4.jpg" alt="Květa Pacovská: Libro con pagine tagliate a strisce (foto del libro)"></button><figcaption><b>Libro con pagine tagliate a strisce (foto del libro)</b><br>Květa Pacovská · <a href="https://www.artymag.ir/en/media/d2/zartists/e67c39513a44b69add3bfc6fa57489a2/3a2e8aa60449046873dc3a6148c3e3e4.jpg" target="_blank" rel="noopener">fonte: artymag.ir</a></figcaption></figure></div>
+</article>
+<article class="card" id="mari" data-subj="scienze italiano" data-bes="g" data-group="m">
+  <header class="card-head">
+    <div>
+      <p class="num">30 · Maestro · italiano</p>
+      <h2>Iela Mari</h2>
+      <p class="meta">Italia · 1931–2014; Il palloncino rosso esce nel 1967 (Emme Edizioni)</p>
+    </div>
+    <span class="bes bes-verde" title="Bollino BES"><span class="dot"></span>Adatto</span>
+  </header>
+  <div class="cols">
+    <div class="col">
+      <h3>Premi <span class="tag fact">fatto</span></h3>
+      <ul class="awards"><li>Nessun premio maggiore verificato: inclusa per il valore didattico <a class="src" href="https://www.doppiozero.com/materiali/babau/il-linguaggio-visuale-di-iela-mari" target="_blank" rel="noopener">fonte: doppiozero.com</a></li></ul>
+      <h3>Tecnica</h3>
+      <p>Libri senza parole, immagini nitide e precise. <span class="tag fact">fatto · Mammalingua</span></p>
+    </div>
+    <div class="col">
+      <h3>Perché è originale <span class="tag eval">valutazione</span></h3>
+      <p>Un oggetto che si trasforma pagina dopo pagina (palloncino → mela → farfalla): sequenza pura, senza parole.</p>
+      <h3>Materie <span class="tag eval">valutazione</span></h3>
+      <p class="chips"><span class="chip">scienze</span><span class="chip">italiano</span></p>
+      <h3>Bollino BES <span class="tag eval">valutazione</span></h3>
+      <p>Forme piatte, un oggetto per pagina, fondo bianco.</p>
+    </div>
+  </div>
+  <div class="kw">
+    <div class="kw-head"><h3>Parole chiave per Gemini</h3><button class="copy" data-copy="wordless modernist picture-book illustration, crisp flat shapes with precise outlines, palette of bright red, leaf green and black on pure white, a single object transforming step by step, no characters or one tiny child, centered composition, few elements, generous empty space, no text">Copia</button></div>
+    <p class="kw-text" lang="en">wordless modernist picture-book illustration, crisp flat shapes with precise outlines, palette of bright red, leaf green and black on pure white, a single object transforming step by step, no characters or one tiny child, centered composition, few elements, generous empty space, no text</p>
+  </div>
+  <div class="gallery"><figure><button class="zoom" aria-label="Ingrandisci: Iela Mari: La mela e la farfalla (con Enzo Mari, 1960), doppia pagina"><img loading="lazy" src="maestri/mari-1.jpg" alt="Iela Mari: La mela e la farfalla (con Enzo Mari, 1960), doppia pagina"></button><figcaption><b>La mela e la farfalla (con Enzo Mari, 1960), doppia pagina</b><br>Iela Mari · <a href="https://tomsbox.base.shop/items/86332034" target="_blank" rel="noopener">fonte: tomsbox.base.shop</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Iela Mari: Il palloncino rosso (1967), doppia pagina"><img loading="lazy" src="maestri/mari-2.jpg" alt="Iela Mari: Il palloncino rosso (1967), doppia pagina"></button><figcaption><b>Il palloncino rosso (1967), doppia pagina</b><br>Iela Mari · <a href="https://www.incisione.com/artisti/iela-mari/" target="_blank" rel="noopener">fonte: incisione.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Iela Mari: Il palloncino rosso (1967), copertina e prima pagina"><img loading="lazy" src="maestri/mari-3.jpg" alt="Iela Mari: Il palloncino rosso (1967), copertina e prima pagina"></button><figcaption><b>Il palloncino rosso (1967), copertina e prima pagina</b><br>Iela Mari · <a href="https://live.staticflickr.com/2520/3870282371_7837b90333_z.jpg" target="_blank" rel="noopener">fonte: live.staticflickr.com</a></figcaption></figure><figure><button class="zoom" aria-label="Ingrandisci: Iela Mari: La mela e la farfalla, tavola interna"><img loading="lazy" src="maestri/mari-4.jpg" alt="Iela Mari: La mela e la farfalla, tavola interna"></button><figcaption><b>La mela e la farfalla, tavola interna</b><br>Iela Mari · <a href="https://www.imestieridelleparole.it/2025/09/19/la-mela-e-la-farfalla/" target="_blank" rel="noopener">fonte: imestieridelleparole.it</a></figcaption></figure></div>
+</article>
+
+<section class="guide" id="come-usare">
+  <h2>Come usare le parole chiave in Gemini e NotebookLM</h2>
+  <p class="lead">Queste sono le cose che avete già visto funzionare (o non funzionare) nelle prove, più quello che dice l'aiuto di Google.</p>
+  <ol class="steps">
+    <li><b>Carica un'immagine di riferimento.</b> Tocca una delle 4 tavole, salvala (tieni premuto → «Salva immagine») e caricala in Gemini. Meglio due tavole dello stesso illustratore. Gemini non apre i link, e il solo nome dell'autore non basta.</li>
+    <li><b>Chiedi di partire da un foglio bianco.</b> Se gli dai la tavola senza dirlo, ricopia la composizione e cambia solo la superficie.</li>
+    <li><b>Incolla la riga di parole chiave</b> (pulsante «Copia» nella scheda).</li>
+    <li><b>Scrivi il soggetto in una frase sola</b>, per esempio «a medieval monk copying a manuscript».</li>
+    <li><b>Ripeti i limiti:</b> al massimo 2 personaggi, facce semplici, sfondo piatto, niente scritte. Il segnale più forte dell'AI è il riempimento totale e le facce sorridenti tutte uguali.</li>
+    <li><b>I testi li aggiungi tu</b> dopo, in Canva o Documenti, con un font leggibile (vedi regole BES sotto). Se li fa l'AI sbaglia parole, numeri, loghi e contatti.</li>
+    <li><b>Se esce troppo «liscio»</b>, chiedi: «more visible paper grain, ink misregistration, imperfect hand-cut edges». Gli stili a stampa e materici reggono meglio di quelli lisci e luminosi.</li>
+    <li><b>NotebookLM per il testo, Gemini per l'immagine.</b> Usa NotebookLM per semplificare il testo dalle fonti (frasi brevi), Gemini solo per l'illustrazione muta, poi monta le due cose. Per NotebookLM non ho trovato documentazione ufficiale sul controllo dello stile delle immagini.</li>
+  </ol>
+  <div class="kw template">
+    <div class="kw-head"><h3>Prompt pronto (in inglese)</h3><button class="copy" data-copy="Use the uploaded image ONLY as a style reference (technique, palette, texture). Start from a blank sheet: do NOT copy its composition, characters or layout. Style: [PASTE KEYWORDS HERE]. Subject: [ONE SENTENCE]. Maximum 2 characters, simple faces without smiles, flat background, no text, no letters, no numbers, no labels, no logos.">Copia</button></div>
+    <p class="kw-text" lang="en">Use the uploaded image ONLY as a style reference (technique, palette, texture). Start from a blank sheet: do NOT copy its composition, characters or layout. Style: <mark>[PASTE KEYWORDS HERE]</mark>. Subject: <mark>[ONE SENTENCE]</mark>. Maximum 2 characters, simple faces without smiles, flat background, no text, no letters, no numbers, no labels, no logos.</p>
+  </div>
+  <p class="small">Fonti: Centro assistenza Gemini, <a href="https://support.google.com/gemini/answer/14286560" target="_blank" rel="noopener">«Generate images»</a> (si possono caricare immagini di riferimento e descrivere lo stile); Google, <a href="https://blog.google/products-and-platforms/products/gemini/image-generation-prompting-tips/" target="_blank" rel="noopener">consigli per i prompt di immagini</a> (trasferire stile, texture o design da un concetto all'altro). Il resto viene dalle vostre prove.</p>
+</section>
+
+<section class="guide" id="regole-bes">
+  <h2>Regole di leggibilità BES</h2>
+  <div class="cols">
+    <div class="col">
+      <h3>British Dyslexia Association – Dyslexia Style Guide 2023</h3>
+      <ul>
+        <li><b>Font</b> senza grazie: Arial, Verdana, Tahoma, Century Gothic, Trebuchet, Calibri, Open Sans.</li>
+        <li><b>Corpo</b> 12–14 pt (16–19 px); i titoli almeno il 20% più grandi.</li>
+        <li><b>Spaziatura</b>: tra le lettere circa il 35% della larghezza media di una lettera; tra le parole almeno 3,5 volte quella tra le lettere; interlinea 1,5.</li>
+        <li><b>Sfondo</b> crema o pastello tenue invece del bianco, testo scuro; carta opaca, non lucida.</li>
+        <li><b>Niente sottolineato e corsivo</b>: per evidenziare usa il grassetto.</li>
+        <li><b>Allineato a sinistra</b>, non giustificato.</li>
+        <li><b>Frasi brevi e semplici</b>; righe di 60–70 caratteri.</li>
+      </ul>
+      <p class="small">Fonte: <a href="https://cdn.bdadyslexia.org.uk/uploads/documents/Advice/style-guide/BDA-Style-Guide-2023.pdf" target="_blank" rel="noopener">BDA Dyslexia Style Guide 2023 (PDF)</a></p>
+    </div>
+    <div class="col">
+      <h3>Easy-to-Read – Inclusion Europe, «Information for all»</h3>
+      <ul>
+        <li>Frasi sempre brevi.</li>
+        <li>Rivolgiti direttamente al lettore (dai del «tu»).</li>
+        <li>Numeri in cifre, niente numeri romani; evita percentuali e numeri grandi.</li>
+        <li>Preferisci il presente.</li>
+        <li>Non troppe immagini o elementi grafici.</li>
+        <li>Font chiari, come Arial o Tahoma.</li>
+      </ul>
+      <p>Le linee guida dell'Ufficio pubblicazioni UE aggiungono: disegni chiari che illustrano direttamente l'idea; niente arte astratta, sfondi affollati o immagini solo decorative.</p>
+      <p class="small">Fonti: <a href="https://www.inclusion-europe.eu/easy-to-read-standards-guidelines/" target="_blank" rel="noopener">Inclusion Europe</a>; <a href="https://op.europa.eu/en/web/webguide/plain-language-and-easy-to-read" target="_blank" rel="noopener">Ufficio pubblicazioni UE</a>. Nota: sono pensate per persone con disabilità intellettiva, da adattare per i DSA.</p>
+    </div>
+  </div>
+  <div class="box">
+    <h3>Cosa vuol dire per le immagini <span class="tag eval">valutazione</span></h3>
+    <p>Sono gli stessi criteri del bollino verde: una sola idea per immagine, figura netta su fondo calmo, niente testo dentro l'immagine.</p>
+    <p class="legend"><span class="bes bes-verde"><span class="dot"></span>Adatto</span> pochi elementi, figura e sfondo netti, va bene in una scheda così com'è. <span class="bes bes-giallo"><span class="dot"></span>Da semplificare</span> lo stile funziona, ma va chiesto a Gemini con meno elementi e più contrasto. <span class="bes bes-rosso"><span class="dot"></span>Solo copertina</span> troppo denso o ambiguo per una scheda: usalo per una copertina o un titolo.</p>
+  </div>
+</section>
+
+<section class="guide" id="note">
+  <h2>Note su fonti e immagini</h2>
+  <ul>
+    <li><span class="tag fact">fatto</span> = informazione verificata su una fonte aperta, con il link. <span class="tag eval">valutazione</span> = giudizio mio, da prendere come proposta. <span class="tag unv">non verificata</span> = nota, ma non confermata da una fonte aperta in questa ricerca.</li>
+    <li>Iela Mari è inclusa senza premi maggiori verificati, per il valore didattico.</li>
+    <li>Alessandro Sanna: per il Premio Andersen 2014 a Fiume lento le fonti riportano categorie diverse.</li>
+    <li>Munari, Premio Andersen 1974: è il premio italiano, non l'Hans Christian Andersen Award (alcuni siti li confondono).</li>
+    <li>Per alcuni maestri (Frasconi, Pacovská, Iela Mari) le tavole interne in buona risoluzione online sono rare: alcune immagini sono fotografie del libro o stampe d'arte, ed è scritto nella didascalia.</li>
+  </ul>
+  <p class="rights"><b>Uso delle immagini.</b> Le immagini appartengono ai rispettivi autori ed editori. Sono raccolte qui solo per uso privato e didattico, come riferimento di stile. Non pubblicare questo sito online e non ridistribuire le immagini.</p>
+</section>
+</main>
+<footer class="wrap">Catalogo preparato a novembre 2026. Premi e date verificati sulle fonti indicate; i giudizi marcati «valutazione» sono proposte.</footer>
+<div class="lb" role="dialog" aria-modal="true" aria-label="Immagine ingrandita"><button class="x" aria-label="Chiudi">×</button><button class="pv" aria-label="Precedente">‹</button><img alt=""><button class="nx" aria-label="Successiva">›</button><p></p></div>
+<script>
+(function(){
+var cards=[].slice.call(document.querySelectorAll('.card'));
+var subj='tutte', besOnly=false, group='tutti';
+function apply(){var n=0;cards.forEach(function(c){var ok=(subj==='tutte'||c.dataset.subj.split(' ').indexOf(subj)>-1)&&(!besOnly||c.dataset.bes==='g')&&(group==='tutti'||c.dataset.group===group);c.hidden=!ok;if(ok)n++;var t=document.querySelector('.toc a[href="#'+c.id+'"]');if(t)t.classList.toggle('hide',!ok)});document.getElementById('count').textContent=n+(n===1?' illustratore':' illustratori');}
+document.querySelectorAll('[data-subj-f]').forEach(function(b){b.addEventListener('click',function(){subj=b.getAttribute('data-subj-f');document.querySelectorAll('[data-subj-f]').forEach(function(x){x.setAttribute('aria-pressed',x===b)});apply()})});
+document.querySelectorAll('[data-group-f]').forEach(function(b){b.addEventListener('click',function(){group=b.getAttribute('data-group-f');document.querySelectorAll('[data-group-f]').forEach(function(x){x.setAttribute('aria-pressed',x===b)});apply()})});
+var bo=document.querySelector('.bes-only');bo.addEventListener('click',function(){besOnly=!besOnly;bo.setAttribute('aria-pressed',besOnly);apply()});
+function copyText(t,btn){function done(){var o=btn.textContent;btn.textContent='Copiato ✓';btn.classList.add('ok');setTimeout(function(){btn.textContent=o;btn.classList.remove('ok')},1600)}
+ function fb(){var ta=document.createElement('textarea');ta.value=t;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.top='0';ta.style.opacity='0';document.body.appendChild(ta);ta.select();ta.setSelectionRange(0,t.length);var ok=false;try{ok=document.execCommand('copy')}catch(e){}document.body.removeChild(ta);if(ok)done();else{window.prompt('Copia il testo:',t)}}
+ if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(done,fb)}else fb();}
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){copyText(b.getAttribute('data-copy'),b)})});
+var lb=document.querySelector('.lb'),li=lb.querySelector('img'),lc=lb.querySelector('p'),zs=[],cur=0;
+function vis(){return [].slice.call(document.querySelectorAll('.card:not([hidden]) .zoom'))}
+function show(i){zs=vis();if(!zs.length)return;cur=(i+zs.length)%zs.length;var z=zs[cur],im=z.querySelector('img');li.src=im.src;li.alt=im.alt;lc.innerHTML=z.parentNode.querySelector('figcaption').innerHTML;lb.classList.add('open');document.body.style.overflow='hidden'}
+function hide(){lb.classList.remove('open');document.body.style.overflow='';li.src=''}
+document.addEventListener('click',function(ev){var z=ev.target.closest&&ev.target.closest('.zoom');if(z){show(vis().indexOf(z))}});
+lb.querySelector('.x').onclick=hide;lb.querySelector('.pv').onclick=function(e){e.stopPropagation();show(cur-1)};lb.querySelector('.nx').onclick=function(e){e.stopPropagation();show(cur+1)};
+lb.addEventListener('click',function(ev){if(ev.target===lb)hide()});
+document.addEventListener('keydown',function(ev){if(!lb.classList.contains('open'))return;if(ev.key==='Escape')hide();if(ev.key==='ArrowLeft')show(cur-1);if(ev.key==='ArrowRight')show(cur+1)});
+var sx=null;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});lb.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)show(cur+(dx<0?1:-1));sx=null});
+apply();
+})();
+</script>
+</body></html>
